@@ -1,0 +1,35 @@
+2022-09-22 23:45:43.665 | INFO     | __main__:record_cfgs:47 - Record fuzzer configs:
+2022-09-22 23:45:43.665 | INFO     | __main__:record_cfgs:49 - scenario_env_json : data/ds_1.json
+2022-09-22 23:45:43.666 | INFO     | __main__:record_cfgs:49 - output_path : outputs/ds_1_v2-at-09-22-2022-23-45-43
+2022-09-22 23:45:43.666 | INFO     | __main__:record_cfgs:49 - lgsvl_map : 12da60a7-2fc9-474d-a62a-5cc08cb97fe8
+2022-09-22 23:45:43.666 | INFO     | __main__:record_cfgs:49 - apollo_map : San Francisco Correct
+2022-09-22 23:45:43.666 | INFO     | __main__:record_cfgs:49 - pop_size : 4
+2022-09-22 23:45:43.666 | INFO     | __main__:record_cfgs:49 - npc_size : 2
+2022-09-22 23:45:43.666 | INFO     | __main__:record_cfgs:49 - time_size : 10
+2022-09-22 23:45:43.666 | INFO     | __main__:record_cfgs:49 - bounds : [[0, 30], [0, 3]]
+2022-09-22 23:45:43.666 | INFO     | __main__:record_cfgs:49 - total_sim_time : 30
+2022-09-22 23:45:43.666 | INFO     | __main__:record_cfgs:49 - p_mutation : 0.5
+2022-09-22 23:45:43.666 | INFO     | __main__:record_cfgs:49 - p_crossover : 0.4
+2022-09-22 23:45:43.667 | INFO     | __main__:record_cfgs:49 - max_gen : 100
+2022-09-22 23:45:43.667 | INFO     | __main__:record_cfgs:49 - selection : roulette
+2022-09-22 23:45:43.667 | INFO     | __main__:record_cfgs:49 - default_record_folder : /home/victor/Documents/Experiments/output
+2022-09-22 23:45:43.667 | INFO     | simulation.run_parse:__init__:39 - Default record path: /home/victor/Documents/Experiments/output
+2022-09-22 23:45:43.673 | INFO     | simulation.simulator:connect_lgsvl:64 - Connected LGSVL 127.0.0.1:8181
+2022-09-22 23:45:43.706 | INFO     | simulation.simulator:load_map:71 - Loaded map: 12da60a7-2fc9-474d-a62a-5cc08cb97fe8
+2022-09-22 23:45:43.708 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-22-2022-23-45-43] ===
+2022-09-22 23:46:23.970 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-22 23:47:25.367 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-22 23:47:25.373 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 5.639816266069944, 'fault': ['normal']}
+2022-09-22 23:47:25.373 | INFO     | simulation.run_parse:run:75 -  === Record scenario_0 to outputs/ds_1_v2-at-09-22-2022-23-45-43/logs/case_states.log
+2022-09-22 23:47:25.374 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-22-2022-23-47-25] ===
+2022-09-22 23:48:06.108 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-22 23:49:10.254 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-22 23:49:10.259 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.0339023924829074, 'fault': ['normal']}
+2022-09-22 23:49:10.259 | INFO     | simulation.run_parse:run:75 -  === Record scenario_1 to outputs/ds_1_v2-at-09-22-2022-23-45-43/logs/case_states.log
+2022-09-22 23:49:10.260 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-22-2022-23-49-10] ===
+2022-09-22 23:49:51.147 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-22 23:50:53.577 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-22 23:50:53.583 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.6060150299554639, 'fault': ['normal']}
+2022-09-22 23:50:53.584 | INFO     | simulation.run_parse:run:75 -  === Record scenario_2 to outputs/ds_1_v2-at-09-22-2022-23-45-43/logs/case_states.log
+2022-09-22 23:50:53.584 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-22-2022-23-50-53] ===
+2022-09-22 23:51:34.499 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366

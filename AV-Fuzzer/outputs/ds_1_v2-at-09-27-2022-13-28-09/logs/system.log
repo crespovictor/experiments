@@ -1,0 +1,523 @@
+2022-09-27 13:28:09.303 | INFO     | __main__:record_cfgs:47 - Record fuzzer configs:
+2022-09-27 13:28:09.303 | INFO     | __main__:record_cfgs:49 - scenario_env_json : data/ds_1.json
+2022-09-27 13:28:09.303 | INFO     | __main__:record_cfgs:49 - output_path : outputs/ds_1_v2-at-09-27-2022-13-28-09
+2022-09-27 13:28:09.303 | INFO     | __main__:record_cfgs:49 - lgsvl_map : 12da60a7-2fc9-474d-a62a-5cc08cb97fe8
+2022-09-27 13:28:09.303 | INFO     | __main__:record_cfgs:49 - apollo_map : San Francisco Correct
+2022-09-27 13:28:09.303 | INFO     | __main__:record_cfgs:49 - pop_size : 4
+2022-09-27 13:28:09.303 | INFO     | __main__:record_cfgs:49 - npc_size : 2
+2022-09-27 13:28:09.304 | INFO     | __main__:record_cfgs:49 - time_size : 10
+2022-09-27 13:28:09.304 | INFO     | __main__:record_cfgs:49 - bounds : [[0, 30], [0, 3]]
+2022-09-27 13:28:09.304 | INFO     | __main__:record_cfgs:49 - total_sim_time : 30
+2022-09-27 13:28:09.304 | INFO     | __main__:record_cfgs:49 - p_mutation : 0.4
+2022-09-27 13:28:09.304 | INFO     | __main__:record_cfgs:49 - p_crossover : 0.4
+2022-09-27 13:28:09.304 | INFO     | __main__:record_cfgs:49 - max_gen : 100
+2022-09-27 13:28:09.304 | INFO     | __main__:record_cfgs:49 - selection : roulette
+2022-09-27 13:28:09.304 | INFO     | __main__:record_cfgs:49 - default_record_folder : /home/victor/Desktop/apollo/data/bag
+2022-09-27 13:28:09.304 | INFO     | simulation.run_parse:__init__:39 - Default record path: /home/victor/Desktop/apollo/data/bag
+2022-09-27 13:28:09.352 | INFO     | simulation.simulator:connect_lgsvl:64 - Connected LGSVL 127.0.0.1:8181
+2022-09-27 13:28:14.488 | INFO     | simulation.simulator:load_map:71 - Loaded map: 12da60a7-2fc9-474d-a62a-5cc08cb97fe8
+2022-09-27 13:28:14.488 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-13-28-14] ===
+2022-09-27 13:29:00.599 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 13:30:06.610 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 13:30:06.618 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.6550667294679915, 'fault': ['normal']}
+2022-09-27 13:30:06.618 | INFO     | simulation.run_parse:run:75 -  === Record scenario_0 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 13:30:06.618 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-13-30-06] ===
+2022-09-27 13:30:52.648 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 13:31:59.456 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 13:31:59.461 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 13.455678754724664, 'fault': ['normal']}
+2022-09-27 13:31:59.462 | INFO     | simulation.run_parse:run:75 -  === Record scenario_1 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 13:31:59.462 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-13-31-59] ===
+2022-09-27 13:32:44.391 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 13:33:03.234 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-38.6558876037598, 10.7195644378662, 37.8709259033203)
+2022-09-27 13:33:49.350 | ERROR    | simulation.liability:ego_collision_fault:184 - NPC fault
+2022-09-27 13:33:49.351 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 13:33:49.356 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 138.47653324298267, 'fault': ['npc_fault']}
+2022-09-27 13:33:49.356 | INFO     | simulation.run_parse:run:75 -  === Record scenario_2 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 13:33:49.357 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-13-33-49] ===
+2022-09-27 13:34:35.479 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 13:35:40.661 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 13:35:40.669 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 7.800104707458128, 'fault': ['normal']}
+2022-09-27 13:35:40.669 | INFO     | simulation.run_parse:run:75 -  === Record scenario_3 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 13:35:40.669 | INFO     | __main__:__init__:41 - Initilized Genetic Mutator.
+2022-09-27 13:35:40.670 | INFO     | mutation.genetic_algorithm:process:255 -     *** 0th generation ***    
+2022-09-27 13:35:40.670 | INFO     | mutation.genetic_algorithm:mutation:113 - Generate 2 mutated scenarios
+2022-09-27 13:35:40.671 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-13-35-40] ===
+2022-09-27 13:36:24.640 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 13:37:30.766 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 13:37:30.773 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 7.899854735899128, 'fault': ['normal']}
+2022-09-27 13:37:30.774 | INFO     | simulation.run_parse:run:75 -  === Record scenario_4 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 13:37:30.774 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-13-37-30] ===
+2022-09-27 13:38:18.756 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 13:39:22.580 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 13:39:22.587 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 4.602960884033714, 'fault': ['normal']}
+2022-09-27 13:39:22.587 | INFO     | simulation.run_parse:run:75 -  === Record scenario_5 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 13:39:22.589 | INFO     | mutation.genetic_algorithm:process:255 -     *** 1th generation ***    
+2022-09-27 13:39:22.589 | INFO     | mutation.genetic_algorithm:mutation:113 - Generate 3 mutated scenarios
+2022-09-27 13:39:22.589 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-13-39-22] ===
+2022-09-27 13:40:10.392 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 13:40:29.938 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-40.3483963012695, 10.5512390136719, 39.6447219848633)
+2022-09-27 13:40:32.632 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-54.5398902893066, 10.6414566040039, 52.8742599487305)
+2022-09-27 13:41:14.566 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 13:41:14.566 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 13:41:14.571 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 102.52000758830164, 'fault': ['ego_fault']}
+2022-09-27 13:41:14.572 | INFO     | simulation.run_parse:run:75 -  === Record scenario_6 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 13:41:14.572 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-13-41-14] ===
+2022-09-27 13:41:59.449 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 13:42:19.418 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-42.4728927612305, 10.7447032928467, 41.7971649169922)
+2022-09-27 13:42:21.647 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-54.5992088317871, 10.6417589187622, 52.9158515930176)
+2022-09-27 13:43:06.758 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 13:43:06.758 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 13:43:06.764 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 101.13122903516347, 'fault': ['ego_fault']}
+2022-09-27 13:43:06.765 | INFO     | simulation.run_parse:run:75 -  === Record scenario_7 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 13:43:06.765 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-13-43-06] ===
+2022-09-27 13:43:53.083 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 13:44:12.563 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-40.984935760498, 10.5513610839844, 40.2333488464355)
+2022-09-27 13:44:26.232 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-94.2935638427734, 10.7333288192749, 90.039680480957)
+2022-09-27 13:44:33.490 | WARNING  | simulation.simulator:runSimulation:324 - $$Simulator$$ Module is closed: Prediction ==> restart
+2022-09-27 13:44:33.995 | WARNING  | simulation.simulator:runSimulation:324 - $$Simulator$$ Module is closed: Prediction ==> restart
+2022-09-27 13:44:34.501 | WARNING  | simulation.simulator:runSimulation:324 - $$Simulator$$ Module is closed: Prediction ==> restart
+2022-09-27 13:44:43.956 | WARNING  | simulation.simulator:runSimulation:324 - $$Simulator$$ Module is closed: Prediction ==> restart
+2022-09-27 13:44:44.462 | WARNING  | simulation.simulator:runSimulation:324 - $$Simulator$$ Module is closed: Prediction ==> restart
+2022-09-27 13:44:44.965 | WARNING  | simulation.simulator:runSimulation:324 - $$Simulator$$ Module is closed: Prediction ==> restart
+2022-09-27 13:44:59.429 | WARNING  | simulation.simulator:runSimulation:324 - $$Simulator$$ Module is closed: Prediction ==> restart
+2022-09-27 13:44:59.933 | WARNING  | simulation.simulator:runSimulation:324 - $$Simulator$$ Module is closed: Prediction ==> restart
+2022-09-27 13:45:00.435 | WARNING  | simulation.simulator:runSimulation:324 - $$Simulator$$ Module is closed: Prediction ==> restart
+2022-09-27 13:45:06.779 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 13:45:06.779 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 13:45:06.786 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 101.97789698380775, 'fault': ['ego_fault']}
+2022-09-27 13:45:06.786 | INFO     | simulation.run_parse:run:75 -  === Record scenario_8 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 13:45:06.828 | INFO     | mutation.genetic_algorithm:process:255 -     *** 2th generation ***    
+2022-09-27 13:45:06.828 | INFO     | mutation.genetic_algorithm:mutation:113 - Generate 2 mutated scenarios
+2022-09-27 13:45:06.828 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-13-45-06] ===
+2022-09-27 13:46:12.530 | WARNING  | simulation.simulator:runSimulation:259 - Fail to spin up apollo, try again!
+2022-09-27 13:46:55.396 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 13:47:14.956 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-41.8667411804199, 10.5513896942139, 41.0955390930176)
+2022-09-27 13:47:17.419 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-54.4090347290039, 10.6417083740234, 52.7519302368164)
+2022-09-27 13:48:01.549 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 13:48:01.549 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 13:48:01.554 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 101.73213510775885, 'fault': ['ego_fault']}
+2022-09-27 13:48:01.554 | INFO     | simulation.run_parse:run:75 -  === Record scenario_9 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 13:48:01.555 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-13-48-01] ===
+2022-09-27 13:48:50.368 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 13:49:10.151 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-43.2912635803223, 10.492259979248, 42.6187896728516)
+2022-09-27 13:49:12.094 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-54.3553123474121, 10.6410322189331, 52.7287406921387)
+2022-09-27 13:49:57.631 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 13:49:57.632 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 13:49:57.637 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 103.21107206327923, 'fault': ['ego_fault']}
+2022-09-27 13:49:57.637 | INFO     | simulation.run_parse:run:75 -  === Record scenario_10 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 13:49:57.639 | INFO     | mutation.genetic_algorithm:process:255 -     *** 3th generation ***    
+2022-09-27 13:49:57.639 | INFO     | mutation.genetic_algorithm:mutation:113 - Generate 3 mutated scenarios
+2022-09-27 13:49:57.639 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-13-49-57] ===
+2022-09-27 13:50:44.677 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 13:51:03.933 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-38.6558876037598, 10.7195644378662, 37.8709259033203)
+2022-09-27 13:51:07.269 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-54.5665588378906, 10.7424268722534, 53.4463005065918)
+2022-09-27 13:51:08.080 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-55.0700645446777, 10.7951393127441, 53.442626953125)
+2022-09-27 13:51:49.463 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 13:51:49.463 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 13:51:49.469 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 100.52433707663926, 'fault': ['ego_fault']}
+2022-09-27 13:51:49.470 | INFO     | simulation.run_parse:run:75 -  === Record scenario_11 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 13:51:49.470 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-13-51-49] ===
+2022-09-27 13:52:35.603 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 13:52:55.395 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-42.622802734375, 10.5336599349976, 41.912181854248)
+2022-09-27 13:52:57.301 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-53.7843551635742, 10.6409273147583, 52.2359199523926)
+2022-09-27 13:53:44.943 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 13:53:44.943 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 13:53:44.950 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 103.62139522754424, 'fault': ['ego_fault']}
+2022-09-27 13:53:44.950 | INFO     | simulation.run_parse:run:75 -  === Record scenario_12 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 13:53:44.950 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-13-53-44] ===
+2022-09-27 13:54:31.010 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 13:55:35.899 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 13:55:35.906 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.9663350918372973, 'fault': ['normal']}
+2022-09-27 13:55:35.906 | INFO     | simulation.run_parse:run:75 -  === Record scenario_13 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 13:55:35.909 | INFO     | mutation.genetic_algorithm:process:255 -     *** 4th generation ***    
+2022-09-27 13:55:35.909 | INFO     | mutation.genetic_algorithm:mutation:113 - Generate 2 mutated scenarios
+2022-09-27 13:55:35.909 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-13-55-35] ===
+2022-09-27 13:56:20.063 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 13:56:40.290 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-42.8625717163086, 10.7195653915405, 41.7768478393555)
+2022-09-27 13:56:54.822 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-96.4585723876953, 10.7397212982178, 92.1142578125)
+2022-09-27 13:57:26.306 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 13:57:26.307 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 13:57:26.313 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 104.27371794124258, 'fault': ['ego_fault']}
+2022-09-27 13:57:26.313 | INFO     | simulation.run_parse:run:75 -  === Record scenario_14 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 13:57:26.314 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-13-57-26] ===
+2022-09-27 13:58:10.221 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 13:58:29.631 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-39.1718826293945, 10.7195644378662, 37.9773292541504)
+2022-09-27 13:58:33.096 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-54.895881652832, 10.6414098739624, 53.1801261901855)
+2022-09-27 13:58:34.392 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-55.0402450561523, 10.6487503051758, 53.309700012207)
+2022-09-27 13:59:17.952 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 13:59:17.953 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 13:59:17.958 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 100.26737892303953, 'fault': ['ego_fault']}
+2022-09-27 13:59:17.958 | INFO     | simulation.run_parse:run:75 -  === Record scenario_15 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 13:59:17.960 | INFO     | mutation.genetic_algorithm:process:255 -     *** 5th generation ***    
+2022-09-27 13:59:17.961 | INFO     | mutation.genetic_algorithm:mutation:113 - Generate 3 mutated scenarios
+2022-09-27 13:59:17.961 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-13-59-17] ===
+2022-09-27 14:00:04.313 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:00:23.835 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-42.1221199035645, 10.5330438613892, 41.331615447998)
+2022-09-27 14:00:25.911 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-54.0028762817383, 10.641411781311, 52.4042434692383)
+2022-09-27 14:01:10.676 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 14:01:10.676 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:01:10.682 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 103.78909039107612, 'fault': ['ego_fault']}
+2022-09-27 14:01:10.683 | INFO     | simulation.run_parse:run:75 -  === Record scenario_16 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:01:10.683 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-01-10] ===
+2022-09-27 14:01:56.600 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:02:27.595 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-89.405891418457, 10.8118295669556, 84.2367630004883)
+2022-09-27 14:03:00.414 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 14:03:00.414 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:03:00.421 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 105.10700677635117, 'fault': ['ego_fault']}
+2022-09-27 14:03:00.421 | INFO     | simulation.run_parse:run:75 -  === Record scenario_17 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:03:00.421 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-03-00] ===
+2022-09-27 14:03:46.392 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:04:05.841 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-42.8307952880859, 10.5335807800293, 42.0421180725098)
+2022-09-27 14:04:07.742 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-53.7768440246582, 10.6414108276367, 52.2126541137695)
+2022-09-27 14:04:08.190 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-54.0095558166504, 10.7367095947266, 52.4277191162109)
+2022-09-27 14:04:52.599 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 14:04:52.599 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:04:52.607 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 100.28932779679354, 'fault': ['ego_fault']}
+2022-09-27 14:04:52.608 | INFO     | simulation.run_parse:run:75 -  === Record scenario_18 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:04:52.609 | INFO     | mutation.genetic_algorithm:process:302 -     ### Restart Based on Generation: 5 ###    
+2022-09-27 14:04:52.963 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-04-52] ===
+2022-09-27 14:05:37.179 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:06:42.772 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:06:42.779 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.7824253931068492, 'fault': ['normal']}
+2022-09-27 14:06:42.779 | INFO     | simulation.run_parse:run:75 -  === Record scenario_19 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:06:42.779 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-06-42] ===
+2022-09-27 14:07:28.871 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:08:35.090 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:08:35.096 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.443154379483635, 'fault': ['normal']}
+2022-09-27 14:08:35.096 | INFO     | simulation.run_parse:run:75 -  === Record scenario_20 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:08:35.097 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-08-35] ===
+2022-09-27 14:09:21.132 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:10:26.390 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:10:26.397 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.1409123115391697, 'fault': ['normal']}
+2022-09-27 14:10:26.397 | INFO     | simulation.run_parse:run:75 -  === Record scenario_21 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:10:26.398 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-10-26] ===
+2022-09-27 14:11:12.854 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:12:18.902 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:12:18.908 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.22139990635356, 'fault': ['normal']}
+2022-09-27 14:12:18.908 | INFO     | simulation.run_parse:run:75 -  === Record scenario_22 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:12:18.912 | INFO     | mutation.genetic_algorithm:process:255 -     *** 6th generation ***    
+2022-09-27 14:12:18.912 | INFO     | mutation.genetic_algorithm:mutation:113 - Generate 4 mutated scenarios
+2022-09-27 14:12:18.912 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-12-18] ===
+2022-09-27 14:13:10.202 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:14:15.891 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:14:15.898 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.8172843676986323, 'fault': ['normal']}
+2022-09-27 14:14:15.898 | INFO     | simulation.run_parse:run:75 -  === Record scenario_23 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:14:15.899 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-14-15] ===
+2022-09-27 14:15:03.911 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:16:07.667 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:16:07.674 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.4169534350049993, 'fault': ['normal']}
+2022-09-27 14:16:07.675 | INFO     | simulation.run_parse:run:75 -  === Record scenario_24 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:16:07.675 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-16-07] ===
+2022-09-27 14:16:55.333 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:17:59.552 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:17:59.560 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.7490726256427724, 'fault': ['normal']}
+2022-09-27 14:17:59.560 | INFO     | simulation.run_parse:run:75 -  === Record scenario_25 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:17:59.560 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-17-59] ===
+2022-09-27 14:18:47.072 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:19:54.408 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:19:54.414 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.2604663623731502, 'fault': ['normal']}
+2022-09-27 14:19:54.414 | INFO     | simulation.run_parse:run:75 -  === Record scenario_26 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:19:54.418 | INFO     | mutation.genetic_algorithm:process:255 -     *** 7th generation ***    
+2022-09-27 14:19:54.418 | INFO     | mutation.genetic_algorithm:mutation:113 - Generate 1 mutated scenarios
+2022-09-27 14:19:54.418 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-19-54] ===
+2022-09-27 14:20:40.604 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:21:47.557 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:21:47.564 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.810917915432529, 'fault': ['normal']}
+2022-09-27 14:21:47.565 | INFO     | simulation.run_parse:run:75 -  === Record scenario_27 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:21:47.569 | INFO     | mutation.genetic_algorithm:process:255 -     *** 8th generation ***    
+2022-09-27 14:21:47.569 | INFO     | mutation.genetic_algorithm:mutation:113 - Generate 1 mutated scenarios
+2022-09-27 14:21:47.569 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-21-47] ===
+2022-09-27 14:22:34.971 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:23:40.761 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:23:40.768 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.4359381214783487, 'fault': ['normal']}
+2022-09-27 14:23:40.769 | INFO     | simulation.run_parse:run:75 -  === Record scenario_28 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:23:40.772 | INFO     | mutation.genetic_algorithm:process:255 -     *** 9th generation ***    
+2022-09-27 14:23:40.772 | INFO     | mutation.genetic_algorithm:mutation:113 - Generate 2 mutated scenarios
+2022-09-27 14:23:40.773 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-23-40] ===
+2022-09-27 14:24:26.141 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:25:19.621 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-160.736389160156, 10.8069324493408, 154.556900024414)
+2022-09-27 14:25:23.789 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-160.483963012695, 10.780707359314, 154.48828125)
+2022-09-27 14:25:31.133 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:25:31.140 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 101.33545806623529, 'fault': ['npc_fault']}
+2022-09-27 14:25:31.141 | INFO     | simulation.run_parse:run:75 -  === Record scenario_29 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:25:31.141 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-25-31] ===
+2022-09-27 14:26:17.802 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:27:21.547 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:27:21.554 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.5073455558998696, 'fault': ['normal']}
+2022-09-27 14:27:21.554 | INFO     | simulation.run_parse:run:75 -  === Record scenario_30 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:27:21.558 | INFO     | mutation.local_genetic_algorithm:mutation:117 - Generate 4 mutated scenarios
+2022-09-27 14:27:21.558 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-27-21] ===
+2022-09-27 14:28:05.904 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:28:24.666 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-34.5495109558105, 10.7195644378662, 33.5524406433105)
+2022-09-27 14:28:24.988 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-37.7326469421387, 10.8287811279297, 37.5558242797852)
+2022-09-27 14:29:09.757 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 14:29:09.758 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:29:09.763 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 103.6108788553309, 'fault': ['ego_fault']}
+2022-09-27 14:29:09.763 | INFO     | simulation.run_parse:run:75 -  === Record scenario_31 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:29:09.763 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-29-09] ===
+2022-09-27 14:29:59.538 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:30:18.647 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-39.1818771362305, 10.7195644378662, 38.4272994995117)
+2022-09-27 14:31:05.002 | ERROR    | simulation.liability:ego_collision_fault:184 - NPC fault
+2022-09-27 14:31:05.003 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:31:05.009 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 137.48798199684612, 'fault': ['npc_fault']}
+2022-09-27 14:31:05.010 | INFO     | simulation.run_parse:run:75 -  === Record scenario_32 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:31:05.010 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-31-05] ===
+2022-09-27 14:31:48.959 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:32:10.394 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-38.3220558166504, 10.7195663452148, 37.5718154907227)
+2022-09-27 14:32:55.433 | ERROR    | simulation.liability:ego_collision_fault:184 - NPC fault
+2022-09-27 14:32:55.433 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:32:55.439 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 121.54540580552867, 'fault': ['npc_fault']}
+2022-09-27 14:32:55.439 | INFO     | simulation.run_parse:run:75 -  === Record scenario_33 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:32:55.439 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-32-55] ===
+2022-09-27 14:33:46.313 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:34:05.807 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-39.1818771362305, 10.7195644378662, 38.4272994995117)
+2022-09-27 14:34:51.588 | ERROR    | simulation.liability:ego_collision_fault:184 - NPC fault
+2022-09-27 14:34:51.589 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:34:51.597 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 137.53854394637227, 'fault': ['npc_fault']}
+2022-09-27 14:34:51.597 | INFO     | simulation.run_parse:run:75 -  === Record scenario_34 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:34:51.597 | INFO     | mutation.local_genetic_algorithm:process:225 - Local Generation of 9: * 0th generation *
+2022-09-27 14:34:51.598 | INFO     | mutation.local_genetic_algorithm:mutation:117 - Generate 5 mutated scenarios
+2022-09-27 14:34:51.598 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-34-51] ===
+2022-09-27 14:35:36.491 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:35:55.930 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-37.876594543457, 10.7219524383545, 37.1013870239258)
+2022-09-27 14:36:08.511 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-92.6144332885742, 10.7431554794312, 88.3943786621094)
+2022-09-27 14:36:08.694 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-92.8097763061523, 10.7710676193237, 88.2911376953125)
+2022-09-27 14:36:43.565 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 14:36:43.566 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:36:43.573 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 100.48784033472528, 'fault': ['ego_fault']}
+2022-09-27 14:36:43.573 | INFO     | simulation.run_parse:run:75 -  === Record scenario_35 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:36:43.573 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-36-43] ===
+2022-09-27 14:37:29.048 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:37:48.479 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-40.8241081237793, 10.5528230667114, 40.0059814453125)
+2022-09-27 14:38:35.698 | ERROR    | simulation.liability:ego_collision_fault:184 - NPC fault
+2022-09-27 14:38:35.698 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:38:35.705 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 137.6751746554816, 'fault': ['npc_fault']}
+2022-09-27 14:38:35.705 | INFO     | simulation.run_parse:run:75 -  === Record scenario_36 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:38:35.705 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-38-35] ===
+2022-09-27 14:39:22.056 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:39:41.771 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-42.3402824401855, 10.5349864959717, 41.6299133300781)
+2022-09-27 14:39:42.974 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-49.5199432373047, 10.8026666641235, 48.4792366027832)
+2022-09-27 14:39:54.253 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-64.2289276123047, 10.8183841705322, 62.3897514343262)
+2022-09-27 14:40:29.140 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 14:40:29.141 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:40:29.149 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 105.31134957662093, 'fault': ['ego_fault']}
+2022-09-27 14:40:29.149 | INFO     | simulation.run_parse:run:75 -  === Record scenario_37 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:40:29.149 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-40-29] ===
+2022-09-27 14:41:15.357 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:41:32.998 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-36.5455741882324, 10.9416456222534, 36.3450927734375)
+2022-09-27 14:42:19.615 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 14:42:19.615 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:42:19.622 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 108.60782679933473, 'fault': ['ego_fault']}
+2022-09-27 14:42:19.622 | INFO     | simulation.run_parse:run:75 -  === Record scenario_38 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:42:19.623 | INFO     | mutation.local_genetic_algorithm:process:225 - Local Generation of 9: * 1th generation *
+2022-09-27 14:42:19.624 | INFO     | mutation.local_genetic_algorithm:mutation:117 - Generate 1 mutated scenarios
+2022-09-27 14:42:19.624 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-42-19] ===
+2022-09-27 14:43:04.652 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:44:08.894 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:44:08.900 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.73020444715154, 'fault': ['normal']}
+2022-09-27 14:44:08.900 | INFO     | simulation.run_parse:run:75 -  === Record scenario_39 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:44:08.901 | INFO     | mutation.local_genetic_algorithm:process:225 - Local Generation of 9: * 2th generation *
+2022-09-27 14:44:08.901 | INFO     | mutation.local_genetic_algorithm:mutation:117 - Generate 2 mutated scenarios
+2022-09-27 14:44:08.902 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-44-08] ===
+2022-09-27 14:44:57.349 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:45:16.822 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-41.1867446899414, 10.5511894226074, 40.4166412353516)
+2022-09-27 14:45:19.184 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-54.2575073242188, 10.6414108276367, 52.6254768371582)
+2022-09-27 14:46:04.137 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 14:46:04.137 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:46:04.144 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 103.27678625425365, 'fault': ['ego_fault']}
+2022-09-27 14:46:04.145 | INFO     | simulation.run_parse:run:75 -  === Record scenario_40 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:46:04.145 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-46-04] ===
+2022-09-27 14:46:51.895 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:47:11.705 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-44.4443702697754, 10.5040712356567, 43.7029151916504)
+2022-09-27 14:47:13.098 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-53.2149085998535, 10.6406860351563, 51.7488555908203)
+2022-09-27 14:47:57.548 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 14:47:57.548 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:47:57.555 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 104.06346992016451, 'fault': ['ego_fault']}
+2022-09-27 14:47:57.555 | INFO     | simulation.run_parse:run:75 -  === Record scenario_41 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:47:57.557 | INFO     | mutation.local_genetic_algorithm:process:225 - Local Generation of 9: * 3th generation *
+2022-09-27 14:47:57.558 | INFO     | mutation.local_genetic_algorithm:mutation:117 - Generate 6 mutated scenarios
+2022-09-27 14:47:57.558 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-47-57] ===
+2022-09-27 14:49:03.114 | WARNING  | simulation.simulator:runSimulation:259 - Fail to spin up apollo, try again!
+2022-09-27 14:49:46.253 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:50:05.851 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-41.1404685974121, 10.7446527481079, 40.2717933654785)
+2022-09-27 14:50:53.167 | ERROR    | simulation.liability:ego_collision_fault:184 - NPC fault
+2022-09-27 14:50:53.168 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:50:53.175 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 138.5346407267404, 'fault': ['npc_fault']}
+2022-09-27 14:50:53.175 | INFO     | simulation.run_parse:run:75 -  === Record scenario_42 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:50:53.175 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-50-53] ===
+2022-09-27 14:51:39.488 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:52:42.916 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:52:42.923 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 7.229736140087176, 'fault': ['normal']}
+2022-09-27 14:52:42.924 | INFO     | simulation.run_parse:run:75 -  === Record scenario_43 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:52:42.924 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-52-42] ===
+2022-09-27 14:53:29.073 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:53:48.645 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-41.6794776916504, 10.5510272979736, 40.8806953430176)
+2022-09-27 14:53:50.794 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-54.0314331054688, 10.641411781311, 52.4339027404785)
+2022-09-27 14:54:35.784 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 14:54:35.785 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:54:35.790 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 103.9434976259211, 'fault': ['ego_fault']}
+2022-09-27 14:54:35.790 | INFO     | simulation.run_parse:run:75 -  === Record scenario_44 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:54:35.790 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-54-35] ===
+2022-09-27 14:55:22.948 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:56:27.540 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:56:27.546 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.6061651705693394, 'fault': ['normal']}
+2022-09-27 14:56:27.546 | INFO     | simulation.run_parse:run:75 -  === Record scenario_45 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:56:27.548 | INFO     | mutation.local_genetic_algorithm:process:225 - Local Generation of 9: * 4th generation *
+2022-09-27 14:56:27.549 | INFO     | mutation.local_genetic_algorithm:mutation:117 - Generate 4 mutated scenarios
+2022-09-27 14:56:27.549 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-56-27] ===
+2022-09-27 14:57:13.557 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:57:32.531 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-39.1980628967285, 10.7190809249878, 38.4335441589355)
+2022-09-27 14:58:18.057 | ERROR    | simulation.liability:ego_collision_fault:184 - NPC fault
+2022-09-27 14:58:18.057 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 14:58:18.062 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 137.50169410160606, 'fault': ['npc_fault']}
+2022-09-27 14:58:18.062 | INFO     | simulation.run_parse:run:75 -  === Record scenario_46 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 14:58:18.063 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-14-58-18] ===
+2022-09-27 14:59:06.657 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 14:59:25.973 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-42.6528244018555, 10.5334243774414, 41.849925994873)
+2022-09-27 14:59:27.988 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-53.9988708496094, 10.7764453887939, 52.3859443664551)
+2022-09-27 14:59:28.181 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-54.1605033874512, 10.7474565505981, 52.5425033569336)
+2022-09-27 15:00:12.126 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 15:00:12.126 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 15:00:12.132 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 100.4000730319049, 'fault': ['ego_fault']}
+2022-09-27 15:00:12.132 | INFO     | simulation.run_parse:run:75 -  === Record scenario_47 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 15:00:12.133 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-15-00-12] ===
+2022-09-27 15:00:59.495 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 15:01:18.298 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-37.3494758605957, 10.5516681671143, 36.7459297180176)
+2022-09-27 15:01:31.297 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-92.9584503173828, 10.7403936386108, 88.7957229614258)
+2022-09-27 15:02:05.466 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 15:02:05.466 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 15:02:05.472 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 101.50221108458693, 'fault': ['ego_fault']}
+2022-09-27 15:02:05.472 | INFO     | simulation.run_parse:run:75 -  === Record scenario_48 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 15:02:05.472 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-15-02-05] ===
+2022-09-27 15:02:51.853 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 15:03:57.547 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 15:03:57.553 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.348182721916187, 'fault': ['normal']}
+2022-09-27 15:03:57.554 | INFO     | simulation.run_parse:run:75 -  === Record scenario_49 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 15:03:57.556 | INFO     | mutation.genetic_algorithm:process:342 -  --- Find better scenario in LIS: LIS->138.5346407267404, original->138.47653324298267
+2022-09-27 15:03:57.556 | INFO     | mutation.genetic_algorithm:process:345 -  === End of Local Iterative Search === 
+2022-09-27 15:03:57.556 | INFO     | mutation.genetic_algorithm:process:255 -     *** 10th generation ***    
+2022-09-27 15:03:57.556 | INFO     | mutation.genetic_algorithm:mutation:113 - Generate 1 mutated scenarios
+2022-09-27 15:03:57.557 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-15-03-57] ===
+2022-09-27 15:04:43.973 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 15:05:37.324 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-160.524719238281, 10.9354858398438, 154.591018676758)
+2022-09-27 15:05:49.578 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 15:05:49.579 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 15:05:49.586 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 100.96499601410888, 'fault': ['ego_fault']}
+2022-09-27 15:05:49.586 | INFO     | simulation.run_parse:run:75 -  === Record scenario_50 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 15:05:49.591 | INFO     | mutation.local_genetic_algorithm:mutation:117 - Generate 4 mutated scenarios
+2022-09-27 15:05:49.591 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-15-05-49] ===
+2022-09-27 15:06:36.770 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 15:06:56.058 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-39.0064277648926, 10.7195644378662, 38.2416343688965)
+2022-09-27 15:07:08.649 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-93.6129837036133, 10.7381582260132, 89.4053192138672)
+2022-09-27 15:07:42.299 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 15:07:42.299 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 15:07:42.307 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 101.81004316777312, 'fault': ['ego_fault']}
+2022-09-27 15:07:42.307 | INFO     | simulation.run_parse:run:75 -  === Record scenario_51 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 15:07:42.307 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-15-07-42] ===
+2022-09-27 15:08:27.625 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 15:09:32.280 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 15:09:32.287 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 9.629564448292584, 'fault': ['normal']}
+2022-09-27 15:09:32.287 | INFO     | simulation.run_parse:run:75 -  === Record scenario_52 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 15:09:32.288 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-15-09-32] ===
+2022-09-27 15:10:16.569 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 15:11:22.865 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 15:11:22.872 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 5.542154737176538, 'fault': ['normal']}
+2022-09-27 15:11:22.872 | INFO     | simulation.run_parse:run:75 -  === Record scenario_53 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 15:11:22.873 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-15-11-22] ===
+2022-09-27 15:12:09.202 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 15:12:29.254 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-42.8618354797363, 10.5334272384644, 42.0881614685059)
+2022-09-27 15:12:31.153 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-53.7145080566406, 10.7826986312866, 52.155834197998)
+2022-09-27 15:12:31.342 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-53.8579864501953, 10.756706237793, 52.2989311218262)
+2022-09-27 15:12:31.587 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-53.9458923339844, 10.8081798553467, 52.3850326538086)
+2022-09-27 15:13:17.053 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 15:13:17.054 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 15:13:17.060 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 100.2479603924639, 'fault': ['ego_fault']}
+2022-09-27 15:13:17.060 | INFO     | simulation.run_parse:run:75 -  === Record scenario_54 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 15:13:17.061 | INFO     | mutation.local_genetic_algorithm:process:225 - Local Generation of 10: * 0th generation *
+2022-09-27 15:13:17.061 | INFO     | mutation.local_genetic_algorithm:mutation:117 - Generate 4 mutated scenarios
+2022-09-27 15:13:17.062 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-15-13-17] ===
+2022-09-27 15:14:03.147 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 15:15:08.460 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 15:15:08.466 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 4.984523337571793, 'fault': ['normal']}
+2022-09-27 15:15:08.466 | INFO     | simulation.run_parse:run:75 -  === Record scenario_55 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 15:15:08.467 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-15-15-08] ===
+2022-09-27 15:15:55.773 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 15:16:14.748 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-38.3059463500977, 10.7195644378662, 37.5011405944824)
+2022-09-27 15:16:27.249 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-93.6399459838867, 10.7398118972778, 89.7055969238281)
+2022-09-27 15:17:00.117 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 15:17:00.117 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 15:17:00.124 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 101.6452030858992, 'fault': ['ego_fault']}
+2022-09-27 15:17:00.124 | INFO     | simulation.run_parse:run:75 -  === Record scenario_56 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 15:17:00.124 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-15-17-00] ===
+2022-09-27 15:17:55.517 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 15:18:15.685 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-44.5046539306641, 10.4938049316406, 43.7836875915527)
+2022-09-27 15:18:17.258 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-53.4250526428223, 10.6417598724365, 51.8909606933594)
+2022-09-27 15:18:17.581 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-53.6483612060547, 10.7300357818604, 52.0957412719727)
+2022-09-27 15:19:02.448 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 15:19:02.448 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 15:19:02.454 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 100.27897810445316, 'fault': ['ego_fault']}
+2022-09-27 15:19:02.454 | INFO     | simulation.run_parse:run:75 -  === Record scenario_57 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 15:19:02.455 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-15-19-02] ===
+2022-09-27 15:19:47.104 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 15:20:06.779 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-39.5331382751465, 10.7195644378662, 38.7992172241211)
+2022-09-27 15:20:21.314 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-94.7355728149414, 10.7361087799072, 90.2934265136719)
+2022-09-27 15:20:54.024 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 15:20:54.025 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 15:20:54.031 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 102.32257030556165, 'fault': ['ego_fault']}
+2022-09-27 15:20:54.031 | INFO     | simulation.run_parse:run:75 -  === Record scenario_58 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 15:20:54.032 | INFO     | mutation.local_genetic_algorithm:process:225 - Local Generation of 10: * 1th generation *
+2022-09-27 15:20:54.033 | INFO     | mutation.local_genetic_algorithm:mutation:117 - Generate 4 mutated scenarios
+2022-09-27 15:20:54.033 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-15-20-54] ===
+2022-09-27 15:21:41.743 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 15:22:01.249 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-41.7096290588379, 10.5557060241699, 40.9350090026855)
+2022-09-27 15:22:47.593 | ERROR    | simulation.liability:ego_collision_fault:184 - NPC fault
+2022-09-27 15:22:47.598 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 15:22:47.605 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 136.60165237874105, 'fault': ['npc_fault']}
+2022-09-27 15:22:47.605 | INFO     | simulation.run_parse:run:75 -  === Record scenario_59 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 15:22:47.606 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-15-22-47] ===
+2022-09-27 15:23:34.262 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 15:23:53.800 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-38.347526550293, 10.7195653915405, 37.5413398742676)
+2022-09-27 15:24:08.223 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-93.7400207519531, 10.739933013916, 89.3844528198242)
+2022-09-27 15:24:40.154 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 15:24:40.155 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 15:24:40.161 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 101.00204042768272, 'fault': ['ego_fault']}
+2022-09-27 15:24:40.162 | INFO     | simulation.run_parse:run:75 -  === Record scenario_60 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 15:24:40.162 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-15-24-40] ===
+2022-09-27 15:25:25.477 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 15:25:44.638 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-37.4702033996582, 10.7212657928467, 36.6576538085938)
+2022-09-27 15:26:30.741 | ERROR    | simulation.liability:ego_collision_fault:184 - NPC fault
+2022-09-27 15:26:30.742 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 15:26:30.749 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 120.35606974679419, 'fault': ['npc_fault']}
+2022-09-27 15:26:30.749 | INFO     | simulation.run_parse:run:75 -  === Record scenario_61 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 15:26:30.751 | INFO     | mutation.local_genetic_algorithm:process:225 - Local Generation of 10: * 2th generation *
+2022-09-27 15:26:30.751 | INFO     | mutation.local_genetic_algorithm:mutation:117 - Generate 4 mutated scenarios
+2022-09-27 15:26:30.751 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-15-26-30] ===
+2022-09-27 15:27:19.134 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 15:27:38.943 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-42.6673431396484, 10.5336866378784, 41.9498558044434)
+2022-09-27 15:27:40.851 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-53.8404922485352, 10.6414098739624, 52.2679672241211)
+2022-09-27 15:28:23.741 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 15:28:23.741 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 15:28:23.747 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 103.31938671287945, 'fault': ['ego_fault']}
+2022-09-27 15:28:23.748 | INFO     | simulation.run_parse:run:75 -  === Record scenario_62 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 15:28:23.748 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-15-28-23] ===
+2022-09-27 15:29:12.861 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 15:29:32.075 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-37.478572845459, 10.7233219146729, 36.7146072387695)
+2022-09-27 15:30:10.344 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-160.803558349609, 10.7434854507446, 154.799514770508)
+2022-09-27 15:30:17.560 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 15:30:17.567 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 101.83624074874344, 'fault': ['npc_fault']}
+2022-09-27 15:30:17.567 | INFO     | simulation.run_parse:run:75 -  === Record scenario_63 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 15:30:17.567 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-15-30-17] ===
+2022-09-27 15:31:04.771 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 15:31:24.905 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-44.7877235412598, 10.6841106414795, 43.9894485473633)
+2022-09-27 15:31:26.268 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-53.237922668457, 10.6414823532104, 51.7371368408203)
+2022-09-27 15:31:26.638 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-53.4850082397461, 10.755410194397, 51.981502532959)
+2022-09-27 15:32:09.661 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 15:32:09.662 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 15:32:09.668 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 100.6055456612605, 'fault': ['ego_fault']}
+2022-09-27 15:32:09.669 | INFO     | simulation.run_parse:run:75 -  === Record scenario_64 to outputs/ds_1_v2-at-09-27-2022-13-28-09/logs/case_states.log
+2022-09-27 15:32:09.670 | INFO     | mutation.local_genetic_algorithm:process:225 - Local Generation of 10: * 3th generation *
+2022-09-27 15:32:09.671 | INFO     | mutation.local_genetic_algorithm:mutation:117 - Generate 7 mutated scenarios
+2022-09-27 15:32:09.671 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-15-32-09] ===
+2022-09-27 15:32:56.646 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 15:33:15.218 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-38.2458572387695, 10.7233657836914, 37.2733955383301)
+2022-09-27 15:33:15.606 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with STATIC OBSTACLE at None

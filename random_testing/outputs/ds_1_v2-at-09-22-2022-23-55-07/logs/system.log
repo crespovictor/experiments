@@ -1,0 +1,19 @@
+2022-09-22 23:55:07.624 | INFO     | __main__:record_cfgs:47 - Record fuzzer configs:
+2022-09-22 23:55:07.624 | INFO     | __main__:record_cfgs:49 - scenario_env_json : data/ds_1.json
+2022-09-22 23:55:07.624 | INFO     | __main__:record_cfgs:49 - output_path : outputs/ds_1_v2-at-09-22-2022-23-55-07
+2022-09-22 23:55:07.625 | INFO     | __main__:record_cfgs:49 - lgsvl_map : 12da60a7-2fc9-474d-a62a-5cc08cb97fe8
+2022-09-22 23:55:07.625 | INFO     | __main__:record_cfgs:49 - apollo_map : San Francisco Correct
+2022-09-22 23:55:07.625 | INFO     | __main__:record_cfgs:49 - pop_size : 4
+2022-09-22 23:55:07.625 | INFO     | __main__:record_cfgs:49 - npc_size : 2
+2022-09-22 23:55:07.625 | INFO     | __main__:record_cfgs:49 - time_size : 10
+2022-09-22 23:55:07.625 | INFO     | __main__:record_cfgs:49 - bounds : [[0, 30], [0, 3]]
+2022-09-22 23:55:07.625 | INFO     | __main__:record_cfgs:49 - total_sim_time : 30
+2022-09-22 23:55:07.625 | INFO     | __main__:record_cfgs:49 - p_mutation : 0.5
+2022-09-22 23:55:07.625 | INFO     | __main__:record_cfgs:49 - p_crossover : 0.4
+2022-09-22 23:55:07.626 | INFO     | __main__:record_cfgs:49 - max_gen : 100
+2022-09-22 23:55:07.626 | INFO     | __main__:record_cfgs:49 - selection : roulette
+2022-09-22 23:55:07.626 | INFO     | __main__:record_cfgs:49 - default_record_folder : /home/victor/Documents/Experiments/output
+2022-09-22 23:55:07.626 | INFO     | simulation.run_parse:__init__:39 - Default record path: /home/victor/Documents/Experiments/output
+2022-09-22 23:55:07.630 | INFO     | simulation.simulator:connect_lgsvl:64 - Connected LGSVL 127.0.0.1:8181
+2022-09-22 23:55:07.671 | INFO     | simulation.simulator:load_map:71 - Loaded map: 12da60a7-2fc9-474d-a62a-5cc08cb97fe8
+2022-09-22 23:55:07.672 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-22-2022-23-55-07] ===

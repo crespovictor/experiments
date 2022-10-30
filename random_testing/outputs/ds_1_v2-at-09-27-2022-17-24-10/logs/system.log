@@ -1,0 +1,1177 @@
+2022-09-27 17:24:10.454 | INFO     | __main__:record_cfgs:47 - Record fuzzer configs:
+2022-09-27 17:24:10.454 | INFO     | __main__:record_cfgs:49 - scenario_env_json : data/ds_1.json
+2022-09-27 17:24:10.454 | INFO     | __main__:record_cfgs:49 - output_path : outputs/ds_1_v2-at-09-27-2022-17-24-10
+2022-09-27 17:24:10.454 | INFO     | __main__:record_cfgs:49 - lgsvl_map : 12da60a7-2fc9-474d-a62a-5cc08cb97fe8
+2022-09-27 17:24:10.454 | INFO     | __main__:record_cfgs:49 - apollo_map : San Francisco Correct
+2022-09-27 17:24:10.454 | INFO     | __main__:record_cfgs:49 - pop_size : 4
+2022-09-27 17:24:10.454 | INFO     | __main__:record_cfgs:49 - npc_size : 2
+2022-09-27 17:24:10.455 | INFO     | __main__:record_cfgs:49 - time_size : 10
+2022-09-27 17:24:10.455 | INFO     | __main__:record_cfgs:49 - bounds : [[0, 30], [0, 3]]
+2022-09-27 17:24:10.455 | INFO     | __main__:record_cfgs:49 - total_sim_time : 30
+2022-09-27 17:24:10.455 | INFO     | __main__:record_cfgs:49 - p_mutation : 0.5
+2022-09-27 17:24:10.455 | INFO     | __main__:record_cfgs:49 - p_crossover : 0.4
+2022-09-27 17:24:10.455 | INFO     | __main__:record_cfgs:49 - max_gen : 100
+2022-09-27 17:24:10.455 | INFO     | __main__:record_cfgs:49 - selection : roulette
+2022-09-27 17:24:10.455 | INFO     | __main__:record_cfgs:49 - default_record_folder : /home/victor/Documents/Experiments/output
+2022-09-27 17:24:10.455 | INFO     | simulation.run_parse:__init__:39 - Default record path: /home/victor/Documents/Experiments/output
+2022-09-27 17:24:10.458 | INFO     | simulation.simulator:connect_lgsvl:64 - Connected LGSVL 127.0.0.1:8181
+2022-09-27 17:24:10.491 | INFO     | simulation.simulator:load_map:71 - Loaded map: 12da60a7-2fc9-474d-a62a-5cc08cb97fe8
+2022-09-27 17:24:10.492 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-24-10] ===
+2022-09-27 17:24:54.412 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 17:25:59.866 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 17:25:59.873 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.9863584601287854, 'fault': ['normal']}
+2022-09-27 17:25:59.873 | INFO     | simulation.run_parse:run:75 -  === Record scenario_0 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 17:25:59.874 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-25-59] ===
+2022-09-27 17:26:43.081 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 17:27:44.522 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 17:27:44.528 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.5745925020027394, 'fault': ['normal']}
+2022-09-27 17:27:44.528 | INFO     | simulation.run_parse:run:75 -  === Record scenario_1 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 17:27:44.528 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-27-44] ===
+2022-09-27 17:28:27.181 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 17:29:30.639 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 17:29:30.646 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.4290530345219303, 'fault': ['normal']}
+2022-09-27 17:29:30.646 | INFO     | simulation.run_parse:run:75 -  === Record scenario_2 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 17:29:30.646 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-29-30] ===
+2022-09-27 17:30:13.616 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 17:31:16.169 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 17:31:16.176 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.712797820949761, 'fault': ['normal']}
+2022-09-27 17:31:16.176 | INFO     | simulation.run_parse:run:75 -  === Record scenario_3 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 17:31:16.176 | INFO     | __main__:__init__:41 - Initilized Genetic Mutator.
+2022-09-27 17:31:16.177 | INFO     | mutation.genetic_algorithm:process:269 -     *** 0th generation ***    
+2022-09-27 17:31:16.177 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-31-16] ===
+2022-09-27 17:31:59.203 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 17:32:46.201 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-156.876998901367, 10.8136892318726, 151.070770263672)
+2022-09-27 17:32:50.287 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-155.289276123047, 10.7985973358154, 149.60319519043)
+2022-09-27 17:32:54.162 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-155.324493408203, 10.7365627288818, 149.618316650391)
+2022-09-27 17:33:02.990 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 17:33:02.996 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 100.05192412116686, 'fault': ['npc_fault']}
+2022-09-27 17:33:02.997 | INFO     | simulation.run_parse:run:75 -  === Record scenario_4 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 17:33:02.997 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-33-02] ===
+2022-09-27 17:33:46.015 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 17:34:35.965 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-156.733245849609, 10.9359683990479, 150.957397460938)
+2022-09-27 17:34:36.101 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-156.761657714844, 10.9359569549561, 150.984420776367)
+2022-09-27 17:34:38.857 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-159.342437744141, 11.0700368881226, 153.457489013672)
+2022-09-27 17:34:40.023 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-159.491226196289, 11.0634851455688, 153.648818969727)
+2022-09-27 17:34:51.728 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 17:34:51.734 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 100.07238986139173, 'fault': ['npc_fault']}
+2022-09-27 17:34:51.734 | INFO     | simulation.run_parse:run:75 -  === Record scenario_5 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 17:34:51.735 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-34-51] ===
+2022-09-27 17:35:36.518 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 17:36:39.747 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 17:36:39.754 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.2575429886806284, 'fault': ['normal']}
+2022-09-27 17:36:39.754 | INFO     | simulation.run_parse:run:75 -  === Record scenario_6 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 17:36:39.754 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-36-39] ===
+2022-09-27 17:37:21.879 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 17:37:41.485 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-42.0505027770996, 10.7195644378662, 41.0086860656738)
+2022-09-27 17:38:25.407 | ERROR    | simulation.liability:ego_collision_fault:184 - NPC fault
+2022-09-27 17:38:25.408 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 17:38:25.415 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 131.67496373857347, 'fault': ['npc_fault']}
+2022-09-27 17:38:25.415 | INFO     | simulation.run_parse:run:75 -  === Record scenario_7 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 17:38:25.416 | INFO     | mutation.genetic_algorithm:process:269 -     *** 1th generation ***    
+2022-09-27 17:38:25.417 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-38-25] ===
+2022-09-27 17:39:10.023 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 17:39:56.945 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-153.961563110352, 10.6413679122925, 147.570251464844)
+2022-09-27 17:39:57.876 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-154.022125244141, 10.6598825454712, 147.609451293945)
+2022-09-27 17:40:15.089 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 17:40:15.089 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 17:40:15.095 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 100.37737689589045, 'fault': ['ego_fault']}
+2022-09-27 17:40:15.095 | INFO     | simulation.run_parse:run:75 -  === Record scenario_8 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 17:40:15.096 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-40-15] ===
+2022-09-27 17:40:57.176 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 17:41:59.898 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 17:41:59.905 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 4.3657407642997015, 'fault': ['normal']}
+2022-09-27 17:41:59.906 | INFO     | simulation.run_parse:run:75 -  === Record scenario_9 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 17:41:59.906 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-41-59] ===
+2022-09-27 17:42:41.901 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 17:43:43.864 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 17:43:43.870 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.377112381918708, 'fault': ['normal']}
+2022-09-27 17:43:43.870 | INFO     | simulation.run_parse:run:75 -  === Record scenario_10 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 17:43:43.871 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-43-43] ===
+2022-09-27 17:44:25.907 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 17:44:59.077 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-96.7184448242188, 10.7399396896362, 92.3573913574219)
+2022-09-27 17:45:32.724 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 17:45:32.725 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 17:45:32.731 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 105.5767773482202, 'fault': ['ego_fault']}
+2022-09-27 17:45:32.731 | INFO     | simulation.run_parse:run:75 -  === Record scenario_11 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 17:45:32.733 | INFO     | mutation.genetic_algorithm:process:269 -     *** 2th generation ***    
+2022-09-27 17:45:32.733 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-45-32] ===
+2022-09-27 17:46:18.574 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 17:47:24.577 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 17:47:24.583 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.467624114992798, 'fault': ['normal']}
+2022-09-27 17:47:24.583 | INFO     | simulation.run_parse:run:75 -  === Record scenario_12 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 17:47:24.583 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-47-24] ===
+2022-09-27 17:48:07.841 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 17:49:13.189 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 17:49:13.196 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.372615278361724, 'fault': ['normal']}
+2022-09-27 17:49:13.197 | INFO     | simulation.run_parse:run:75 -  === Record scenario_13 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 17:49:13.197 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-49-13] ===
+2022-09-27 17:49:59.459 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 17:51:01.147 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 17:51:01.154 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 4.247094983903092, 'fault': ['normal']}
+2022-09-27 17:51:01.154 | INFO     | simulation.run_parse:run:75 -  === Record scenario_14 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 17:51:01.154 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-51-01] ===
+2022-09-27 17:51:44.464 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 17:52:48.995 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 17:52:49.001 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.826889822011605, 'fault': ['normal']}
+2022-09-27 17:52:49.001 | INFO     | simulation.run_parse:run:75 -  === Record scenario_15 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 17:52:49.003 | INFO     | mutation.genetic_algorithm:process:269 -     *** 3th generation ***    
+2022-09-27 17:52:49.003 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-52-49] ===
+2022-09-27 17:53:35.530 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 17:54:38.908 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 17:54:38.913 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 8.096575135673259, 'fault': ['normal']}
+2022-09-27 17:54:38.914 | INFO     | simulation.run_parse:run:75 -  === Record scenario_16 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 17:54:38.914 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-54-38] ===
+2022-09-27 17:55:21.482 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 17:56:25.003 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 17:56:25.010 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.0331165929444723, 'fault': ['normal']}
+2022-09-27 17:56:25.010 | INFO     | simulation.run_parse:run:75 -  === Record scenario_17 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 17:56:25.011 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-56-25] ===
+2022-09-27 17:57:08.249 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 17:57:58.092 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-158.788177490234, 11.0608749389648, 152.955108642578)
+2022-09-27 17:57:58.270 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-158.833114624023, 11.08873462677, 153.010528564453)
+2022-09-27 17:58:12.459 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 17:58:12.459 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 17:58:12.465 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 101.23232439523048, 'fault': ['ego_fault']}
+2022-09-27 17:58:12.466 | INFO     | simulation.run_parse:run:75 -  === Record scenario_18 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 17:58:12.466 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-58-12] ===
+2022-09-27 17:58:55.932 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 17:59:59.577 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 17:59:59.583 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.134474726387789, 'fault': ['normal']}
+2022-09-27 17:59:59.583 | INFO     | simulation.run_parse:run:75 -  === Record scenario_19 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 17:59:59.585 | INFO     | mutation.genetic_algorithm:process:269 -     *** 4th generation ***    
+2022-09-27 17:59:59.585 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-17-59-59] ===
+2022-09-27 18:00:41.653 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:01:46.490 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:01:46.497 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.2968651363632655, 'fault': ['normal']}
+2022-09-27 18:01:46.498 | INFO     | simulation.run_parse:run:75 -  === Record scenario_20 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:01:46.498 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-01-46] ===
+2022-09-27 18:02:28.427 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:03:32.417 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:03:32.423 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.9941074158545664, 'fault': ['normal']}
+2022-09-27 18:03:32.423 | INFO     | simulation.run_parse:run:75 -  === Record scenario_21 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:03:32.423 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-03-32] ===
+2022-09-27 18:04:15.189 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:05:05.668 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-158.708923339844, 11.117844581604, 152.968994140625)
+2022-09-27 18:05:19.439 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 18:05:19.440 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:05:19.447 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 101.27822550236364, 'fault': ['ego_fault']}
+2022-09-27 18:05:19.447 | INFO     | simulation.run_parse:run:75 -  === Record scenario_22 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:05:19.447 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-05-19] ===
+2022-09-27 18:06:03.323 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:07:05.827 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:07:05.833 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.8591489856414085, 'fault': ['normal']}
+2022-09-27 18:07:05.833 | INFO     | simulation.run_parse:run:75 -  === Record scenario_23 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:07:05.835 | INFO     | mutation.genetic_algorithm:process:269 -     *** 5th generation ***    
+2022-09-27 18:07:05.836 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-07-05] ===
+2022-09-27 18:07:48.101 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:08:50.428 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:08:50.435 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.2465770604152449, 'fault': ['normal']}
+2022-09-27 18:08:50.435 | INFO     | simulation.run_parse:run:75 -  === Record scenario_24 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:08:50.435 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-08-50] ===
+2022-09-27 18:09:32.502 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:10:36.625 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:10:36.631 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.434534361086622, 'fault': ['normal']}
+2022-09-27 18:10:36.631 | INFO     | simulation.run_parse:run:75 -  === Record scenario_25 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:10:36.631 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-10-36] ===
+2022-09-27 18:11:21.907 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:12:26.993 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:12:27.000 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.6572242506219683, 'fault': ['normal']}
+2022-09-27 18:12:27.000 | INFO     | simulation.run_parse:run:75 -  === Record scenario_26 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:12:27.000 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-12-27] ===
+2022-09-27 18:13:10.356 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:14:14.022 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:14:14.027 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 6.1705168999243805, 'fault': ['normal']}
+2022-09-27 18:14:14.028 | INFO     | simulation.run_parse:run:75 -  === Record scenario_27 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:14:14.030 | INFO     | mutation.genetic_algorithm:process:269 -     *** 6th generation ***    
+2022-09-27 18:14:14.030 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-14-14] ===
+2022-09-27 18:14:56.199 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:15:50.321 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-160.2841796875, 10.8149318695068, 154.307006835938)
+2022-09-27 18:15:51.211 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-160.61067199707, 10.6687612533569, 154.403442382813)
+2022-09-27 18:15:52.708 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-157.354736328125, 10.7194910049438, 151.30224609375)
+2022-09-27 18:15:59.219 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:15:59.226 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 106.47896714993938, 'fault': ['npc_fault']}
+2022-09-27 18:15:59.226 | INFO     | simulation.run_parse:run:75 -  === Record scenario_28 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:15:59.226 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-15-59] ===
+2022-09-27 18:16:41.252 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:17:33.152 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-160.240829467773, 10.8054895401001, 154.087585449219)
+2022-09-27 18:17:36.918 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-158.808563232422, 11.2535877227783, 153.101669311523)
+2022-09-27 18:17:44.850 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:17:44.856 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 101.52795917662891, 'fault': ['npc_fault']}
+2022-09-27 18:17:44.856 | INFO     | simulation.run_parse:run:75 -  === Record scenario_29 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:17:44.856 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-17-44] ===
+2022-09-27 18:18:28.436 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:19:33.771 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:19:33.778 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.924814480798422, 'fault': ['normal']}
+2022-09-27 18:19:33.778 | INFO     | simulation.run_parse:run:75 -  === Record scenario_30 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:19:33.778 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-19-33] ===
+2022-09-27 18:20:15.953 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:21:17.738 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:21:17.746 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.2397986109995143, 'fault': ['normal']}
+2022-09-27 18:21:17.746 | INFO     | simulation.run_parse:run:75 -  === Record scenario_31 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:21:17.750 | INFO     | mutation.genetic_algorithm:process:269 -     *** 7th generation ***    
+2022-09-27 18:21:17.750 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-21-17] ===
+2022-09-27 18:22:02.229 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:23:06.439 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:23:06.445 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.860250398187701, 'fault': ['normal']}
+2022-09-27 18:23:06.446 | INFO     | simulation.run_parse:run:75 -  === Record scenario_32 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:23:06.446 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-23-06] ===
+2022-09-27 18:23:50.928 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:24:57.767 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:24:57.774 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.404807107631712, 'fault': ['normal']}
+2022-09-27 18:24:57.774 | INFO     | simulation.run_parse:run:75 -  === Record scenario_33 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:24:57.774 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-24-57] ===
+2022-09-27 18:25:44.146 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:26:49.744 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:26:49.751 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 6.932958311476434, 'fault': ['normal']}
+2022-09-27 18:26:49.752 | INFO     | simulation.run_parse:run:75 -  === Record scenario_34 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:26:49.752 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-26-49] ===
+2022-09-27 18:27:32.023 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:28:34.755 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:28:34.762 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 6.869286256384422, 'fault': ['normal']}
+2022-09-27 18:28:34.762 | INFO     | simulation.run_parse:run:75 -  === Record scenario_35 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:28:34.765 | INFO     | mutation.genetic_algorithm:process:269 -     *** 8th generation ***    
+2022-09-27 18:28:34.766 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-28-34] ===
+2022-09-27 18:29:18.000 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:30:23.058 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:30:23.064 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.5584046428960294, 'fault': ['normal']}
+2022-09-27 18:30:23.064 | INFO     | simulation.run_parse:run:75 -  === Record scenario_36 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:30:23.065 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-30-23] ===
+2022-09-27 18:31:06.421 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:32:11.055 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:32:11.061 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.7613122596613553, 'fault': ['normal']}
+2022-09-27 18:32:11.061 | INFO     | simulation.run_parse:run:75 -  === Record scenario_37 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:32:11.062 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-32-11] ===
+2022-09-27 18:32:58.062 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:34:04.693 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:34:04.699 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.70594260043112, 'fault': ['normal']}
+2022-09-27 18:34:04.699 | INFO     | simulation.run_parse:run:75 -  === Record scenario_38 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:34:04.700 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-34-04] ===
+2022-09-27 18:34:50.433 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:35:52.467 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:35:52.474 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.9828691061463557, 'fault': ['normal']}
+2022-09-27 18:35:52.474 | INFO     | simulation.run_parse:run:75 -  === Record scenario_39 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:35:52.478 | INFO     | mutation.genetic_algorithm:process:269 -     *** 9th generation ***    
+2022-09-27 18:35:52.479 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-35-52] ===
+2022-09-27 18:36:36.759 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:37:40.044 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:37:40.049 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.7741300918697323, 'fault': ['normal']}
+2022-09-27 18:37:40.050 | INFO     | simulation.run_parse:run:75 -  === Record scenario_40 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:37:40.050 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-37-40] ===
+2022-09-27 18:38:25.369 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:39:30.553 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:39:30.559 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.378842972356416, 'fault': ['normal']}
+2022-09-27 18:39:30.559 | INFO     | simulation.run_parse:run:75 -  === Record scenario_41 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:39:30.559 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-39-30] ===
+2022-09-27 18:40:17.626 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:41:20.669 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:41:20.675 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.679678136873051, 'fault': ['normal']}
+2022-09-27 18:41:20.675 | INFO     | simulation.run_parse:run:75 -  === Record scenario_42 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:41:20.675 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-41-20] ===
+2022-09-27 18:42:04.383 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:43:09.091 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:43:09.097 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.9860945090089936, 'fault': ['normal']}
+2022-09-27 18:43:09.097 | INFO     | simulation.run_parse:run:75 -  === Record scenario_43 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:43:09.101 | INFO     | mutation.genetic_algorithm:process:269 -     *** 10th generation ***    
+2022-09-27 18:43:09.101 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-43-09] ===
+2022-09-27 18:43:56.299 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:45:00.155 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:45:00.161 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.1786470317690023, 'fault': ['normal']}
+2022-09-27 18:45:00.161 | INFO     | simulation.run_parse:run:75 -  === Record scenario_44 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:45:00.162 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-45-00] ===
+2022-09-27 18:45:45.853 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:46:49.502 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:46:49.508 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.3120303525845434, 'fault': ['normal']}
+2022-09-27 18:46:49.508 | INFO     | simulation.run_parse:run:75 -  === Record scenario_45 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:46:49.508 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-46-49] ===
+2022-09-27 18:47:33.681 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:48:35.362 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:48:35.369 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.0345114841959413, 'fault': ['normal']}
+2022-09-27 18:48:35.369 | INFO     | simulation.run_parse:run:75 -  === Record scenario_46 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:48:35.370 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-48-35] ===
+2022-09-27 18:49:19.028 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:50:23.672 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:50:23.679 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.8722387951017967, 'fault': ['normal']}
+2022-09-27 18:50:23.679 | INFO     | simulation.run_parse:run:75 -  === Record scenario_47 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:50:23.683 | INFO     | mutation.genetic_algorithm:process:269 -     *** 11th generation ***    
+2022-09-27 18:50:23.684 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-50-23] ===
+2022-09-27 18:51:07.706 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:52:12.837 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:52:12.843 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.3375334932799676, 'fault': ['normal']}
+2022-09-27 18:52:12.843 | INFO     | simulation.run_parse:run:75 -  === Record scenario_48 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:52:12.843 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-52-12] ===
+2022-09-27 18:52:59.478 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:54:01.014 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:54:01.021 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 4.853077337074137, 'fault': ['normal']}
+2022-09-27 18:54:01.021 | INFO     | simulation.run_parse:run:75 -  === Record scenario_49 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:54:01.021 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-54-01] ===
+2022-09-27 18:54:46.840 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:55:49.676 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:55:49.682 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.7570342747993495, 'fault': ['normal']}
+2022-09-27 18:55:49.683 | INFO     | simulation.run_parse:run:75 -  === Record scenario_50 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:55:49.683 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-55-49] ===
+2022-09-27 18:56:35.542 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:57:38.967 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:57:38.974 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.0656400963897603, 'fault': ['normal']}
+2022-09-27 18:57:38.974 | INFO     | simulation.run_parse:run:75 -  === Record scenario_51 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:57:38.978 | INFO     | mutation.genetic_algorithm:process:269 -     *** 12th generation ***    
+2022-09-27 18:57:38.978 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-57-38] ===
+2022-09-27 18:58:24.084 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 18:58:53.591 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-87.0081024169922, 10.7421131134033, 83.0799789428711)
+2022-09-27 18:59:28.787 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 18:59:28.787 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 18:59:28.793 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 101.43327100114297, 'fault': ['ego_fault']}
+2022-09-27 18:59:28.793 | INFO     | simulation.run_parse:run:75 -  === Record scenario_52 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 18:59:28.794 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-18-59-28] ===
+2022-09-27 19:00:16.340 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:01:20.707 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:01:20.714 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.4960349757672398, 'fault': ['normal']}
+2022-09-27 19:01:20.715 | INFO     | simulation.run_parse:run:75 -  === Record scenario_53 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:01:20.715 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-01-20] ===
+2022-09-27 19:02:08.156 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:03:11.657 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:03:11.665 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.547796312736375, 'fault': ['normal']}
+2022-09-27 19:03:11.665 | INFO     | simulation.run_parse:run:75 -  === Record scenario_54 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:03:11.665 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-03-11] ===
+2022-09-27 19:03:56.309 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:04:58.773 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:04:58.778 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 6.766161514820248, 'fault': ['normal']}
+2022-09-27 19:04:58.778 | INFO     | simulation.run_parse:run:75 -  === Record scenario_55 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:04:58.783 | INFO     | mutation.genetic_algorithm:process:269 -     *** 13th generation ***    
+2022-09-27 19:04:58.783 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-04-58] ===
+2022-09-27 19:05:44.515 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:06:47.940 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:06:47.945 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 7.037797416259881, 'fault': ['normal']}
+2022-09-27 19:06:47.945 | INFO     | simulation.run_parse:run:75 -  === Record scenario_56 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:06:47.945 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-06-47] ===
+2022-09-27 19:07:33.397 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:08:37.334 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:08:37.340 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.7662543844724, 'fault': ['normal']}
+2022-09-27 19:08:37.341 | INFO     | simulation.run_parse:run:75 -  === Record scenario_57 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:08:37.341 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-08-37] ===
+2022-09-27 19:09:23.582 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:10:25.389 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:10:25.397 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.007638582109494, 'fault': ['normal']}
+2022-09-27 19:10:25.397 | INFO     | simulation.run_parse:run:75 -  === Record scenario_58 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:10:25.397 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-10-25] ===
+2022-09-27 19:11:10.056 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:12:12.834 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:12:12.840 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.8885804358098377, 'fault': ['normal']}
+2022-09-27 19:12:12.840 | INFO     | simulation.run_parse:run:75 -  === Record scenario_59 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:12:12.844 | INFO     | mutation.genetic_algorithm:process:269 -     *** 14th generation ***    
+2022-09-27 19:12:12.845 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-12-12] ===
+2022-09-27 19:12:57.050 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:14:01.766 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:14:01.773 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.4742015635440047, 'fault': ['normal']}
+2022-09-27 19:14:01.773 | INFO     | simulation.run_parse:run:75 -  === Record scenario_60 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:14:01.774 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-14-01] ===
+2022-09-27 19:14:46.628 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:15:50.602 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:15:50.608 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 15.334773342656867, 'fault': ['normal']}
+2022-09-27 19:15:50.608 | INFO     | simulation.run_parse:run:75 -  === Record scenario_61 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:15:50.608 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-15-50] ===
+2022-09-27 19:16:35.608 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:17:38.975 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:17:38.982 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.0699704755052344, 'fault': ['normal']}
+2022-09-27 19:17:38.982 | INFO     | simulation.run_parse:run:75 -  === Record scenario_62 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:17:38.983 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-17-38] ===
+2022-09-27 19:18:23.770 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:19:26.929 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:19:26.935 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 5.724508371469257, 'fault': ['normal']}
+2022-09-27 19:19:26.935 | INFO     | simulation.run_parse:run:75 -  === Record scenario_63 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:19:26.940 | INFO     | mutation.genetic_algorithm:process:269 -     *** 15th generation ***    
+2022-09-27 19:19:26.940 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-19-26] ===
+2022-09-27 19:20:10.575 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:21:14.994 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:21:15.001 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.7466567710317682, 'fault': ['normal']}
+2022-09-27 19:21:15.001 | INFO     | simulation.run_parse:run:75 -  === Record scenario_64 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:21:15.002 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-21-15] ===
+2022-09-27 19:21:59.444 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:23:03.267 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:23:03.274 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.8820575457432893, 'fault': ['normal']}
+2022-09-27 19:23:03.274 | INFO     | simulation.run_parse:run:75 -  === Record scenario_65 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:23:03.274 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-23-03] ===
+2022-09-27 19:23:47.809 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:24:53.573 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:24:53.580 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.58797754585074, 'fault': ['normal']}
+2022-09-27 19:24:53.580 | INFO     | simulation.run_parse:run:75 -  === Record scenario_66 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:24:53.581 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-24-53] ===
+2022-09-27 19:25:39.134 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:26:46.850 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:26:46.858 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.8174438231000123, 'fault': ['normal']}
+2022-09-27 19:26:46.858 | INFO     | simulation.run_parse:run:75 -  === Record scenario_67 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:26:46.863 | INFO     | mutation.genetic_algorithm:process:269 -     *** 16th generation ***    
+2022-09-27 19:26:46.863 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-26-46] ===
+2022-09-27 19:27:33.019 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:28:36.362 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:28:36.369 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.0251721798086446, 'fault': ['normal']}
+2022-09-27 19:28:36.370 | INFO     | simulation.run_parse:run:75 -  === Record scenario_68 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:28:36.370 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-28-36] ===
+2022-09-27 19:29:22.175 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:30:25.868 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:30:25.874 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 4.654247358196174, 'fault': ['normal']}
+2022-09-27 19:30:25.874 | INFO     | simulation.run_parse:run:75 -  === Record scenario_69 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:30:25.875 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-30-25] ===
+2022-09-27 19:31:12.180 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:32:19.322 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:32:19.328 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.1641367251219688, 'fault': ['normal']}
+2022-09-27 19:32:19.328 | INFO     | simulation.run_parse:run:75 -  === Record scenario_70 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:32:19.329 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-32-19] ===
+2022-09-27 19:33:03.091 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:34:06.410 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:34:06.417 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.9342431132565134, 'fault': ['normal']}
+2022-09-27 19:34:06.417 | INFO     | simulation.run_parse:run:75 -  === Record scenario_71 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:34:06.422 | INFO     | mutation.genetic_algorithm:process:269 -     *** 17th generation ***    
+2022-09-27 19:34:06.423 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-34-06] ===
+2022-09-27 19:34:52.244 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:35:55.904 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:35:55.910 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 4.72838137493026, 'fault': ['normal']}
+2022-09-27 19:35:55.910 | INFO     | simulation.run_parse:run:75 -  === Record scenario_72 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:35:55.911 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-35-55] ===
+2022-09-27 19:36:43.707 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:37:03.743 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-42.7985420227051, 10.7196626663208, 41.8211517333984)
+2022-09-27 19:37:49.534 | ERROR    | simulation.liability:ego_collision_fault:184 - NPC fault
+2022-09-27 19:37:49.534 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:37:49.540 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 131.07431244582293, 'fault': ['npc_fault']}
+2022-09-27 19:37:49.540 | INFO     | simulation.run_parse:run:75 -  === Record scenario_73 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:37:49.541 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-37-49] ===
+2022-09-27 19:38:37.632 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:39:41.659 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:39:41.667 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 4.993206761921219, 'fault': ['normal']}
+2022-09-27 19:39:41.667 | INFO     | simulation.run_parse:run:75 -  === Record scenario_74 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:39:41.667 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-39-41] ===
+2022-09-27 19:40:29.751 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:41:35.632 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:41:35.638 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.646772031301601, 'fault': ['normal']}
+2022-09-27 19:41:35.639 | INFO     | simulation.run_parse:run:75 -  === Record scenario_75 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:41:35.645 | INFO     | mutation.genetic_algorithm:process:269 -     *** 18th generation ***    
+2022-09-27 19:41:35.646 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-41-35] ===
+2022-09-27 19:42:23.006 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:43:27.536 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:43:27.542 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.7994635689611733, 'fault': ['normal']}
+2022-09-27 19:43:27.542 | INFO     | simulation.run_parse:run:75 -  === Record scenario_76 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:43:27.542 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-43-27] ===
+2022-09-27 19:44:14.215 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:45:18.756 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:45:18.762 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 8.345691503086165, 'fault': ['normal']}
+2022-09-27 19:45:18.762 | INFO     | simulation.run_parse:run:75 -  === Record scenario_77 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:45:18.762 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-45-18] ===
+2022-09-27 19:46:04.868 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:47:10.492 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:47:10.499 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.8418101650810557, 'fault': ['normal']}
+2022-09-27 19:47:10.499 | INFO     | simulation.run_parse:run:75 -  === Record scenario_78 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:47:10.500 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-47-10] ===
+2022-09-27 19:47:56.098 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:49:00.978 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:49:00.985 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 5.808129748792233, 'fault': ['normal']}
+2022-09-27 19:49:00.985 | INFO     | simulation.run_parse:run:75 -  === Record scenario_79 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:49:00.992 | INFO     | mutation.genetic_algorithm:process:269 -     *** 19th generation ***    
+2022-09-27 19:49:00.992 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-49-00] ===
+2022-09-27 19:49:47.837 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:50:50.923 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:50:50.929 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.135812708985451, 'fault': ['normal']}
+2022-09-27 19:50:50.929 | INFO     | simulation.run_parse:run:75 -  === Record scenario_80 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:50:50.930 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-50-50] ===
+2022-09-27 19:51:36.480 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:52:40.404 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:52:40.411 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.5109989019802605, 'fault': ['normal']}
+2022-09-27 19:52:40.411 | INFO     | simulation.run_parse:run:75 -  === Record scenario_81 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:52:40.412 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-52-40] ===
+2022-09-27 19:53:27.650 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:54:33.622 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:54:33.630 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.0702180369668424, 'fault': ['normal']}
+2022-09-27 19:54:33.630 | INFO     | simulation.run_parse:run:75 -  === Record scenario_82 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:54:33.631 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-54-33] ===
+2022-09-27 19:55:19.428 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:56:24.424 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:56:24.430 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.273906589837001, 'fault': ['normal']}
+2022-09-27 19:56:24.430 | INFO     | simulation.run_parse:run:75 -  === Record scenario_83 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:56:24.437 | INFO     | mutation.genetic_algorithm:process:269 -     *** 20th generation ***    
+2022-09-27 19:56:24.437 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-56-24] ===
+2022-09-27 19:57:09.774 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 19:58:15.427 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 19:58:15.434 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.094627427240579, 'fault': ['normal']}
+2022-09-27 19:58:15.434 | INFO     | simulation.run_parse:run:75 -  === Record scenario_84 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 19:58:15.434 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-19-58-15] ===
+2022-09-27 19:59:01.728 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:00:08.569 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:00:08.577 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.367663020810044, 'fault': ['normal']}
+2022-09-27 20:00:08.577 | INFO     | simulation.run_parse:run:75 -  === Record scenario_85 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:00:08.577 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-00-08] ===
+2022-09-27 20:00:54.953 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:02:03.776 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:02:03.782 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.6614739972847348, 'fault': ['normal']}
+2022-09-27 20:02:03.782 | INFO     | simulation.run_parse:run:75 -  === Record scenario_86 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:02:03.783 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-02-03] ===
+2022-09-27 20:02:47.559 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:03:52.359 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:03:52.365 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.8002085139357376, 'fault': ['normal']}
+2022-09-27 20:03:52.366 | INFO     | simulation.run_parse:run:75 -  === Record scenario_87 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:03:52.373 | INFO     | mutation.genetic_algorithm:process:269 -     *** 21th generation ***    
+2022-09-27 20:03:52.373 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-03-52] ===
+2022-09-27 20:04:40.524 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:05:47.736 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:05:47.742 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 6.4404756302104875, 'fault': ['normal']}
+2022-09-27 20:05:47.742 | INFO     | simulation.run_parse:run:75 -  === Record scenario_88 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:05:47.742 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-05-47] ===
+2022-09-27 20:06:45.124 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:07:50.569 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:07:50.576 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 7.770365830942096, 'fault': ['normal']}
+2022-09-27 20:07:50.576 | INFO     | simulation.run_parse:run:75 -  === Record scenario_89 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:07:50.576 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-07-50] ===
+2022-09-27 20:08:35.055 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:09:25.202 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-159.198364257813, 10.787805557251, 153.386245727539)
+2022-09-27 20:09:30.532 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-160.280471801758, 10.820219039917, 154.288818359375)
+2022-09-27 20:09:40.303 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:09:40.311 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 100.55624192824635, 'fault': ['npc_fault']}
+2022-09-27 20:09:40.311 | INFO     | simulation.run_parse:run:75 -  === Record scenario_90 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:09:40.311 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-09-40] ===
+2022-09-27 20:10:27.759 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:11:33.291 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:11:33.296 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 4.804993422251603, 'fault': ['normal']}
+2022-09-27 20:11:33.297 | INFO     | simulation.run_parse:run:75 -  === Record scenario_91 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:11:33.304 | INFO     | mutation.genetic_algorithm:process:269 -     *** 22th generation ***    
+2022-09-27 20:11:33.304 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-11-33] ===
+2022-09-27 20:12:19.923 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:12:47.421 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-75.1191024780273, 10.7367057800293, 71.7242431640625)
+2022-09-27 20:13:24.750 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 20:13:24.750 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:13:24.756 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 104.31959557995037, 'fault': ['ego_fault']}
+2022-09-27 20:13:24.757 | INFO     | simulation.run_parse:run:75 -  === Record scenario_92 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:13:24.757 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-13-24] ===
+2022-09-27 20:14:09.596 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:15:14.767 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:15:14.773 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.535421974471173, 'fault': ['normal']}
+2022-09-27 20:15:14.774 | INFO     | simulation.run_parse:run:75 -  === Record scenario_93 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:15:14.774 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-15-14] ===
+2022-09-27 20:16:01.866 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:17:05.514 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:17:05.520 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 8.696682284119989, 'fault': ['normal']}
+2022-09-27 20:17:05.520 | INFO     | simulation.run_parse:run:75 -  === Record scenario_94 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:17:05.520 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-17-05] ===
+2022-09-27 20:17:51.670 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:18:56.668 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:18:56.674 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.9975951872352726, 'fault': ['normal']}
+2022-09-27 20:18:56.675 | INFO     | simulation.run_parse:run:75 -  === Record scenario_95 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:18:56.683 | INFO     | mutation.genetic_algorithm:process:269 -     *** 23th generation ***    
+2022-09-27 20:18:56.683 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-18-56] ===
+2022-09-27 20:19:42.884 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:20:10.763 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-79.0743255615234, 10.7389678955078, 75.969970703125)
+2022-09-27 20:20:14.099 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-79.5096130371094, 10.7454786300659, 75.9209747314453)
+2022-09-27 20:20:49.754 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 20:20:49.754 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:20:49.762 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 100.18724265317891, 'fault': ['ego_fault']}
+2022-09-27 20:20:49.762 | INFO     | simulation.run_parse:run:75 -  === Record scenario_96 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:20:49.762 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-20-49] ===
+2022-09-27 20:21:36.785 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:22:42.384 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:22:42.391 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 7.512114077212275, 'fault': ['normal']}
+2022-09-27 20:22:42.391 | INFO     | simulation.run_parse:run:75 -  === Record scenario_97 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:22:42.392 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-22-42] ===
+2022-09-27 20:23:30.650 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:24:36.279 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:24:36.285 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.974717332786662, 'fault': ['normal']}
+2022-09-27 20:24:36.286 | INFO     | simulation.run_parse:run:75 -  === Record scenario_98 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:24:36.286 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-24-36] ===
+2022-09-27 20:25:23.580 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:26:27.882 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:26:27.888 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.43743244218479, 'fault': ['normal']}
+2022-09-27 20:26:27.888 | INFO     | simulation.run_parse:run:75 -  === Record scenario_99 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:26:27.897 | INFO     | mutation.genetic_algorithm:process:269 -     *** 24th generation ***    
+2022-09-27 20:26:27.897 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-26-27] ===
+2022-09-27 20:27:12.035 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:28:20.220 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:28:20.227 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.883499928073878, 'fault': ['normal']}
+2022-09-27 20:28:20.228 | INFO     | simulation.run_parse:run:75 -  === Record scenario_100 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:28:20.228 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-28-20] ===
+2022-09-27 20:29:06.559 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:30:10.490 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:30:10.498 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.705680874925022, 'fault': ['normal']}
+2022-09-27 20:30:10.498 | INFO     | simulation.run_parse:run:75 -  === Record scenario_101 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:30:10.498 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-30-10] ===
+2022-09-27 20:30:57.121 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:32:01.042 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:32:01.048 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.4409051078125588, 'fault': ['normal']}
+2022-09-27 20:32:01.049 | INFO     | simulation.run_parse:run:75 -  === Record scenario_102 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:32:01.049 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-32-01] ===
+2022-09-27 20:32:48.792 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:33:28.990 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-134.383239746094, 10.8963689804077, 129.713485717773)
+2022-09-27 20:33:41.005 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-156.439666748047, 10.5767097473145, 150.652679443359)
+2022-09-27 20:33:53.596 | ERROR    | simulation.liability:ego_collision_fault:184 - NPC fault
+2022-09-27 20:33:53.596 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:33:53.603 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 106.9827501474091, 'fault': ['npc_fault']}
+2022-09-27 20:33:53.604 | INFO     | simulation.run_parse:run:75 -  === Record scenario_103 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:33:53.612 | INFO     | mutation.genetic_algorithm:process:269 -     *** 25th generation ***    
+2022-09-27 20:33:53.613 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-33-53] ===
+2022-09-27 20:34:40.062 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:35:44.861 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:35:44.867 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.107606404092212, 'fault': ['normal']}
+2022-09-27 20:35:44.867 | INFO     | simulation.run_parse:run:75 -  === Record scenario_104 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:35:44.868 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-35-44] ===
+2022-09-27 20:36:31.636 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:37:36.390 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:37:36.397 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.53494496927515, 'fault': ['normal']}
+2022-09-27 20:37:36.397 | INFO     | simulation.run_parse:run:75 -  === Record scenario_105 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:37:36.398 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-37-36] ===
+2022-09-27 20:38:28.491 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:39:33.547 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:39:33.553 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.9368310462538174, 'fault': ['normal']}
+2022-09-27 20:39:33.554 | INFO     | simulation.run_parse:run:75 -  === Record scenario_106 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:39:33.554 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-39-33] ===
+2022-09-27 20:40:18.490 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:41:25.496 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:41:25.503 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 4.023117242398125, 'fault': ['normal']}
+2022-09-27 20:41:25.503 | INFO     | simulation.run_parse:run:75 -  === Record scenario_107 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:41:25.512 | INFO     | mutation.genetic_algorithm:process:269 -     *** 26th generation ***    
+2022-09-27 20:41:25.513 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-41-25] ===
+2022-09-27 20:42:10.756 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:42:52.382 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-132.683532714844, 11.0087804794312, 128.04670715332)
+2022-09-27 20:43:14.430 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 20:43:14.430 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:43:14.437 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 105.62647884530395, 'fault': ['ego_fault']}
+2022-09-27 20:43:14.437 | INFO     | simulation.run_parse:run:75 -  === Record scenario_108 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:43:14.438 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-43-14] ===
+2022-09-27 20:44:01.964 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:45:05.641 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:45:05.649 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 0.72876603174016, 'fault': ['normal']}
+2022-09-27 20:45:05.649 | INFO     | simulation.run_parse:run:75 -  === Record scenario_109 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:45:05.649 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-45-05] ===
+2022-09-27 20:45:52.373 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:46:56.501 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:46:56.508 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.563347576872822, 'fault': ['normal']}
+2022-09-27 20:46:56.509 | INFO     | simulation.run_parse:run:75 -  === Record scenario_110 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:46:56.509 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-46-56] ===
+2022-09-27 20:47:40.461 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:48:44.470 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:48:44.476 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.4458501028034276, 'fault': ['normal']}
+2022-09-27 20:48:44.476 | INFO     | simulation.run_parse:run:75 -  === Record scenario_111 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:48:44.484 | INFO     | mutation.genetic_algorithm:process:269 -     *** 27th generation ***    
+2022-09-27 20:48:44.485 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-48-44] ===
+2022-09-27 20:49:32.719 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:50:36.973 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:50:36.979 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.302721633650708, 'fault': ['normal']}
+2022-09-27 20:50:36.979 | INFO     | simulation.run_parse:run:75 -  === Record scenario_112 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:50:36.979 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-50-36] ===
+2022-09-27 20:51:20.843 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:52:25.845 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:52:25.851 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.926910779126144, 'fault': ['normal']}
+2022-09-27 20:52:25.851 | INFO     | simulation.run_parse:run:75 -  === Record scenario_113 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:52:25.851 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-52-25] ===
+2022-09-27 20:53:14.724 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:54:18.381 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:54:18.388 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.9774044053512925, 'fault': ['normal']}
+2022-09-27 20:54:18.388 | INFO     | simulation.run_parse:run:75 -  === Record scenario_114 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:54:18.389 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-54-18] ===
+2022-09-27 20:55:02.373 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:56:05.744 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:56:05.750 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.7577067095356953, 'fault': ['normal']}
+2022-09-27 20:56:05.750 | INFO     | simulation.run_parse:run:75 -  === Record scenario_115 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:56:05.759 | INFO     | mutation.genetic_algorithm:process:269 -     *** 28th generation ***    
+2022-09-27 20:56:05.759 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-56-05] ===
+2022-09-27 20:56:49.985 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:57:53.697 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:57:53.703 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.4965977842876037, 'fault': ['normal']}
+2022-09-27 20:57:53.703 | INFO     | simulation.run_parse:run:75 -  === Record scenario_116 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:57:53.703 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-57-53] ===
+2022-09-27 20:58:38.869 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 20:59:42.183 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 20:59:42.189 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.527784440140716, 'fault': ['normal']}
+2022-09-27 20:59:42.189 | INFO     | simulation.run_parse:run:75 -  === Record scenario_117 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 20:59:42.190 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-20-59-42] ===
+2022-09-27 21:00:27.781 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:01:30.251 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:01:30.258 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 4.73617707898418, 'fault': ['normal']}
+2022-09-27 21:01:30.258 | INFO     | simulation.run_parse:run:75 -  === Record scenario_118 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:01:30.258 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-01-30] ===
+2022-09-27 21:02:15.480 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:03:19.536 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:03:19.543 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.6062761131246286, 'fault': ['normal']}
+2022-09-27 21:03:19.543 | INFO     | simulation.run_parse:run:75 -  === Record scenario_119 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:03:19.551 | INFO     | mutation.genetic_algorithm:process:269 -     *** 29th generation ***    
+2022-09-27 21:03:19.551 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-03-19] ===
+2022-09-27 21:04:05.385 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:05:08.011 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:05:08.017 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 5.215131626185473, 'fault': ['normal']}
+2022-09-27 21:05:08.018 | INFO     | simulation.run_parse:run:75 -  === Record scenario_120 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:05:08.018 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-05-08] ===
+2022-09-27 21:05:59.552 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:07:04.846 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:07:04.852 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.292098303003835, 'fault': ['normal']}
+2022-09-27 21:07:04.853 | INFO     | simulation.run_parse:run:75 -  === Record scenario_121 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:07:04.853 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-07-04] ===
+2022-09-27 21:07:52.625 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:08:56.387 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:08:56.393 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 6.749428798593864, 'fault': ['normal']}
+2022-09-27 21:08:56.394 | INFO     | simulation.run_parse:run:75 -  === Record scenario_122 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:08:56.394 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-08-56] ===
+2022-09-27 21:09:41.512 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:10:45.280 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:10:45.289 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.9488575856702763, 'fault': ['normal']}
+2022-09-27 21:10:45.290 | INFO     | simulation.run_parse:run:75 -  === Record scenario_123 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:10:45.301 | INFO     | mutation.genetic_algorithm:process:269 -     *** 30th generation ***    
+2022-09-27 21:10:45.301 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-10-45] ===
+2022-09-27 21:11:29.787 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:12:33.841 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:12:33.848 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.0213635245479744, 'fault': ['normal']}
+2022-09-27 21:12:33.848 | INFO     | simulation.run_parse:run:75 -  === Record scenario_124 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:12:33.848 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-12-33] ===
+2022-09-27 21:13:20.766 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:14:25.163 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:14:25.171 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.316691983142319, 'fault': ['normal']}
+2022-09-27 21:14:25.172 | INFO     | simulation.run_parse:run:75 -  === Record scenario_125 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:14:25.172 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-14-25] ===
+2022-09-27 21:15:13.693 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:16:18.175 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:16:18.181 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 7.003063035585778, 'fault': ['normal']}
+2022-09-27 21:16:18.181 | INFO     | simulation.run_parse:run:75 -  === Record scenario_126 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:16:18.182 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-16-18] ===
+2022-09-27 21:17:06.300 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:18:10.420 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:18:10.427 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 8.402172528942248, 'fault': ['normal']}
+2022-09-27 21:18:10.427 | INFO     | simulation.run_parse:run:75 -  === Record scenario_127 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:18:10.437 | INFO     | mutation.genetic_algorithm:process:269 -     *** 31th generation ***    
+2022-09-27 21:18:10.437 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-18-10] ===
+2022-09-27 21:18:56.570 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:20:00.282 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:20:00.289 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.681992078378621, 'fault': ['normal']}
+2022-09-27 21:20:00.289 | INFO     | simulation.run_parse:run:75 -  === Record scenario_128 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:20:00.289 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-20-00] ===
+2022-09-27 21:20:45.385 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:21:49.550 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:21:49.556 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.0670589353914224, 'fault': ['normal']}
+2022-09-27 21:21:49.556 | INFO     | simulation.run_parse:run:75 -  === Record scenario_129 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:21:49.557 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-21-49] ===
+2022-09-27 21:22:35.870 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:23:41.514 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:23:41.521 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 7.620072010070378, 'fault': ['normal']}
+2022-09-27 21:23:41.522 | INFO     | simulation.run_parse:run:75 -  === Record scenario_130 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:23:41.522 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-23-41] ===
+2022-09-27 21:24:28.952 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:25:33.233 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:25:33.240 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.0007606070556165, 'fault': ['normal']}
+2022-09-27 21:25:33.240 | INFO     | simulation.run_parse:run:75 -  === Record scenario_131 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:25:33.251 | INFO     | mutation.genetic_algorithm:process:269 -     *** 32th generation ***    
+2022-09-27 21:25:33.251 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-25-33] ===
+2022-09-27 21:26:21.607 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:27:28.264 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:27:28.271 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.5642393866362014, 'fault': ['normal']}
+2022-09-27 21:27:28.272 | INFO     | simulation.run_parse:run:75 -  === Record scenario_132 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:27:28.272 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-27-28] ===
+2022-09-27 21:28:13.585 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:29:21.053 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:29:21.060 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.6999145846284494, 'fault': ['normal']}
+2022-09-27 21:29:21.060 | INFO     | simulation.run_parse:run:75 -  === Record scenario_133 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:29:21.060 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-29-21] ===
+2022-09-27 21:30:09.775 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:31:16.327 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:31:16.334 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.6445796980744927, 'fault': ['normal']}
+2022-09-27 21:31:16.334 | INFO     | simulation.run_parse:run:75 -  === Record scenario_134 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:31:16.334 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-31-16] ===
+2022-09-27 21:32:03.491 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:33:06.431 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:33:06.439 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.9861021426669065, 'fault': ['normal']}
+2022-09-27 21:33:06.439 | INFO     | simulation.run_parse:run:75 -  === Record scenario_135 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:33:06.448 | INFO     | mutation.genetic_algorithm:process:269 -     *** 33th generation ***    
+2022-09-27 21:33:06.449 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-33-06] ===
+2022-09-27 21:33:53.159 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:34:58.246 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:34:58.252 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 4.7432915566676215, 'fault': ['normal']}
+2022-09-27 21:34:58.252 | INFO     | simulation.run_parse:run:75 -  === Record scenario_136 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:34:58.253 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-34-58] ===
+2022-09-27 21:35:44.621 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:36:49.947 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:36:49.954 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 5.176579613487525, 'fault': ['normal']}
+2022-09-27 21:36:49.954 | INFO     | simulation.run_parse:run:75 -  === Record scenario_137 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:36:49.954 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-36-49] ===
+2022-09-27 21:37:36.845 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:38:40.719 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:38:40.725 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.7050720949712725, 'fault': ['normal']}
+2022-09-27 21:38:40.726 | INFO     | simulation.run_parse:run:75 -  === Record scenario_138 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:38:40.726 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-38-40] ===
+2022-09-27 21:39:24.983 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:40:30.159 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:40:30.167 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.561459122749518, 'fault': ['normal']}
+2022-09-27 21:40:30.167 | INFO     | simulation.run_parse:run:75 -  === Record scenario_139 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:40:30.179 | INFO     | mutation.genetic_algorithm:process:269 -     *** 34th generation ***    
+2022-09-27 21:40:30.180 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-40-30] ===
+2022-09-27 21:41:16.704 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:42:20.973 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:42:20.979 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 5.067768234619137, 'fault': ['normal']}
+2022-09-27 21:42:20.979 | INFO     | simulation.run_parse:run:75 -  === Record scenario_140 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:42:20.980 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-42-20] ===
+2022-09-27 21:43:05.601 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:44:08.667 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:44:08.673 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.665340865348968, 'fault': ['normal']}
+2022-09-27 21:44:08.674 | INFO     | simulation.run_parse:run:75 -  === Record scenario_141 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:44:08.674 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-44-08] ===
+2022-09-27 21:44:53.340 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:45:57.635 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:45:57.640 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.6678653037026976, 'fault': ['normal']}
+2022-09-27 21:45:57.640 | INFO     | simulation.run_parse:run:75 -  === Record scenario_142 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:45:57.640 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-45-57] ===
+2022-09-27 21:46:44.728 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:47:48.751 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:47:48.759 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.9260398728749895, 'fault': ['normal']}
+2022-09-27 21:47:48.759 | INFO     | simulation.run_parse:run:75 -  === Record scenario_143 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:47:48.769 | INFO     | mutation.genetic_algorithm:process:269 -     *** 35th generation ***    
+2022-09-27 21:47:48.770 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-47-48] ===
+2022-09-27 21:48:35.264 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:49:39.852 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:49:39.858 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 4.204324267005033, 'fault': ['normal']}
+2022-09-27 21:49:39.858 | INFO     | simulation.run_parse:run:75 -  === Record scenario_144 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:49:39.858 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-49-39] ===
+2022-09-27 21:50:26.018 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:51:30.773 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:51:30.781 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.9144343766033836, 'fault': ['normal']}
+2022-09-27 21:51:30.781 | INFO     | simulation.run_parse:run:75 -  === Record scenario_145 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:51:30.781 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-51-30] ===
+2022-09-27 21:52:15.538 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:53:20.817 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:53:20.824 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 6.058122244839577, 'fault': ['normal']}
+2022-09-27 21:53:20.824 | INFO     | simulation.run_parse:run:75 -  === Record scenario_146 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:53:20.824 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-53-20] ===
+2022-09-27 21:54:08.044 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:55:11.310 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:55:11.317 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.275699298433045, 'fault': ['normal']}
+2022-09-27 21:55:11.318 | INFO     | simulation.run_parse:run:75 -  === Record scenario_147 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:55:11.329 | INFO     | mutation.genetic_algorithm:process:269 -     *** 36th generation ***    
+2022-09-27 21:55:11.329 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-55-11] ===
+2022-09-27 21:55:59.359 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:57:02.727 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:57:02.736 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.766939020906475, 'fault': ['normal']}
+2022-09-27 21:57:02.736 | INFO     | simulation.run_parse:run:75 -  === Record scenario_148 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:57:02.736 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-57-02] ===
+2022-09-27 21:57:46.935 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 21:58:50.957 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 21:58:50.963 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.4798349332809853, 'fault': ['normal']}
+2022-09-27 21:58:50.963 | INFO     | simulation.run_parse:run:75 -  === Record scenario_149 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 21:58:50.964 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-21-58-50] ===
+2022-09-27 21:59:35.543 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:00:39.737 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:00:39.744 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.6329410265627065, 'fault': ['normal']}
+2022-09-27 22:00:39.744 | INFO     | simulation.run_parse:run:75 -  === Record scenario_150 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:00:39.745 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-00-39] ===
+2022-09-27 22:01:29.245 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:02:32.494 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:02:32.501 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.571980286949394, 'fault': ['normal']}
+2022-09-27 22:02:32.501 | INFO     | simulation.run_parse:run:75 -  === Record scenario_151 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:02:32.513 | INFO     | mutation.genetic_algorithm:process:269 -     *** 37th generation ***    
+2022-09-27 22:02:32.514 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-02-32] ===
+2022-09-27 22:03:19.863 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:04:24.540 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:04:24.547 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.2149944455639132, 'fault': ['normal']}
+2022-09-27 22:04:24.547 | INFO     | simulation.run_parse:run:75 -  === Record scenario_152 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:04:24.547 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-04-24] ===
+2022-09-27 22:05:10.894 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:06:16.029 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:06:16.036 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.461724069099616, 'fault': ['normal']}
+2022-09-27 22:06:16.036 | INFO     | simulation.run_parse:run:75 -  === Record scenario_153 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:06:16.037 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-06-16] ===
+2022-09-27 22:07:05.805 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:08:11.037 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:08:11.044 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.212132438653199, 'fault': ['normal']}
+2022-09-27 22:08:11.044 | INFO     | simulation.run_parse:run:75 -  === Record scenario_154 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:08:11.045 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-08-11] ===
+2022-09-27 22:08:56.385 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:10:00.681 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:10:00.688 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.7096024429349743, 'fault': ['normal']}
+2022-09-27 22:10:00.689 | INFO     | simulation.run_parse:run:75 -  === Record scenario_155 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:10:00.700 | INFO     | mutation.genetic_algorithm:process:269 -     *** 38th generation ***    
+2022-09-27 22:10:00.701 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-10-00] ===
+2022-09-27 22:10:47.925 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:11:53.041 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:11:53.048 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.059175172358418, 'fault': ['normal']}
+2022-09-27 22:11:53.048 | INFO     | simulation.run_parse:run:75 -  === Record scenario_156 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:11:53.049 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-11-53] ===
+2022-09-27 22:12:39.170 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:13:44.182 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:13:44.189 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.4395200240957786, 'fault': ['normal']}
+2022-09-27 22:13:44.190 | INFO     | simulation.run_parse:run:75 -  === Record scenario_157 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:13:44.190 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-13-44] ===
+2022-09-27 22:14:29.735 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:15:32.444 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:15:32.451 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.1990351820943905, 'fault': ['normal']}
+2022-09-27 22:15:32.451 | INFO     | simulation.run_parse:run:75 -  === Record scenario_158 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:15:32.452 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-15-32] ===
+2022-09-27 22:16:19.844 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:17:25.555 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:17:25.562 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.605734708133924, 'fault': ['normal']}
+2022-09-27 22:17:25.563 | INFO     | simulation.run_parse:run:75 -  === Record scenario_159 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:17:25.575 | INFO     | mutation.genetic_algorithm:process:269 -     *** 39th generation ***    
+2022-09-27 22:17:25.575 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-17-25] ===
+2022-09-27 22:18:21.726 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:19:24.950 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:19:24.958 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.256562975047563, 'fault': ['normal']}
+2022-09-27 22:19:24.958 | INFO     | simulation.run_parse:run:75 -  === Record scenario_160 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:19:24.958 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-19-24] ===
+2022-09-27 22:20:11.708 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:21:16.132 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:21:16.139 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.6793149644639833, 'fault': ['normal']}
+2022-09-27 22:21:16.139 | INFO     | simulation.run_parse:run:75 -  === Record scenario_161 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:21:16.139 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-21-16] ===
+2022-09-27 22:22:01.564 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:23:04.525 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:23:04.532 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 0.3356989595003506, 'fault': ['normal']}
+2022-09-27 22:23:04.532 | INFO     | simulation.run_parse:run:75 -  === Record scenario_162 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:23:04.533 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-23-04] ===
+2022-09-27 22:23:51.781 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:24:57.772 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:24:57.778 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.2479270431309226, 'fault': ['normal']}
+2022-09-27 22:24:57.778 | INFO     | simulation.run_parse:run:75 -  === Record scenario_163 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:24:57.790 | INFO     | mutation.genetic_algorithm:process:269 -     *** 40th generation ***    
+2022-09-27 22:24:57.790 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-24-57] ===
+2022-09-27 22:25:42.700 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:26:46.087 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:26:46.093 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 5.637684517238482, 'fault': ['normal']}
+2022-09-27 22:26:46.093 | INFO     | simulation.run_parse:run:75 -  === Record scenario_164 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:26:46.093 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-26-46] ===
+2022-09-27 22:27:32.460 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:27:57.568 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-62.3215522766113, 10.9818048477173, 60.8563613891602)
+2022-09-27 22:28:39.154 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 22:28:39.154 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:28:39.162 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 105.10795757632738, 'fault': ['ego_fault']}
+2022-09-27 22:28:39.162 | INFO     | simulation.run_parse:run:75 -  === Record scenario_165 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:28:39.162 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-28-39] ===
+2022-09-27 22:29:31.275 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:30:39.727 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:30:39.734 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.519209134223124, 'fault': ['normal']}
+2022-09-27 22:30:39.734 | INFO     | simulation.run_parse:run:75 -  === Record scenario_166 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:30:39.735 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-30-39] ===
+2022-09-27 22:31:25.957 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:32:31.517 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:32:31.524 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 5.1222422240076275, 'fault': ['normal']}
+2022-09-27 22:32:31.524 | INFO     | simulation.run_parse:run:75 -  === Record scenario_167 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:32:31.536 | INFO     | mutation.genetic_algorithm:process:269 -     *** 41th generation ***    
+2022-09-27 22:32:31.536 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-32-31] ===
+2022-09-27 22:33:18.827 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:34:24.031 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:34:24.037 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 7.409459996255774, 'fault': ['normal']}
+2022-09-27 22:34:24.037 | INFO     | simulation.run_parse:run:75 -  === Record scenario_168 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:34:24.038 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-34-24] ===
+2022-09-27 22:35:10.892 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:36:15.670 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:36:15.677 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 4.839607364736357, 'fault': ['normal']}
+2022-09-27 22:36:15.678 | INFO     | simulation.run_parse:run:75 -  === Record scenario_169 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:36:15.678 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-36-15] ===
+2022-09-27 22:37:02.289 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:38:06.600 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:38:06.607 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.1717486544486786, 'fault': ['normal']}
+2022-09-27 22:38:06.607 | INFO     | simulation.run_parse:run:75 -  === Record scenario_170 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:38:06.607 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-38-06] ===
+2022-09-27 22:38:54.047 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:39:57.745 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:39:57.752 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.4261895778563205, 'fault': ['normal']}
+2022-09-27 22:39:57.752 | INFO     | simulation.run_parse:run:75 -  === Record scenario_171 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:39:57.767 | INFO     | mutation.genetic_algorithm:process:269 -     *** 42th generation ***    
+2022-09-27 22:39:57.767 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-39-57] ===
+2022-09-27 22:40:42.934 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:41:30.312 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-154.433715820313, 10.9351758956909, 148.766845703125)
+2022-09-27 22:41:46.485 | ERROR    | simulation.liability:ego_collision_fault:184 - NPC fault
+2022-09-27 22:41:46.486 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:41:46.492 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 118.68187507292325, 'fault': ['npc_fault']}
+2022-09-27 22:41:46.493 | INFO     | simulation.run_parse:run:75 -  === Record scenario_172 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:41:46.493 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-41-46] ===
+2022-09-27 22:42:31.021 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:43:35.310 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:43:35.316 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 0.94358280919955, 'fault': ['normal']}
+2022-09-27 22:43:35.316 | INFO     | simulation.run_parse:run:75 -  === Record scenario_173 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:43:35.317 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-43-35] ===
+2022-09-27 22:44:21.698 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:45:25.058 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:45:25.065 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.401392321534475, 'fault': ['normal']}
+2022-09-27 22:45:25.065 | INFO     | simulation.run_parse:run:75 -  === Record scenario_174 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:45:25.066 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-45-25] ===
+2022-09-27 22:46:14.432 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:47:19.987 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:47:19.993 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 4.485410733081967, 'fault': ['normal']}
+2022-09-27 22:47:19.993 | INFO     | simulation.run_parse:run:75 -  === Record scenario_175 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:47:20.006 | INFO     | mutation.genetic_algorithm:process:269 -     *** 43th generation ***    
+2022-09-27 22:47:20.006 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-47-20] ===
+2022-09-27 22:48:07.540 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:49:10.392 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:49:10.401 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 0.9512633854261111, 'fault': ['normal']}
+2022-09-27 22:49:10.401 | INFO     | simulation.run_parse:run:75 -  === Record scenario_176 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:49:10.402 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-49-10] ===
+2022-09-27 22:49:54.689 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:50:58.442 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:50:58.448 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.27936276537683, 'fault': ['normal']}
+2022-09-27 22:50:58.448 | INFO     | simulation.run_parse:run:75 -  === Record scenario_177 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:50:58.448 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-50-58] ===
+2022-09-27 22:51:44.932 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:52:51.693 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:52:51.700 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.9163045729445463, 'fault': ['normal']}
+2022-09-27 22:52:51.700 | INFO     | simulation.run_parse:run:75 -  === Record scenario_178 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:52:51.701 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-52-51] ===
+2022-09-27 22:53:39.168 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:54:41.734 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:54:41.741 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 4.241020201159678, 'fault': ['normal']}
+2022-09-27 22:54:41.741 | INFO     | simulation.run_parse:run:75 -  === Record scenario_179 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:54:41.754 | INFO     | mutation.genetic_algorithm:process:269 -     *** 44th generation ***    
+2022-09-27 22:54:41.755 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-54-41] ===
+2022-09-27 22:55:26.015 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:56:31.756 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:56:31.763 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 8.0878729470739, 'fault': ['normal']}
+2022-09-27 22:56:31.764 | INFO     | simulation.run_parse:run:75 -  === Record scenario_180 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:56:31.764 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-56-31] ===
+2022-09-27 22:57:17.668 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 22:58:03.759 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-150.056701660156, 10.4282779693604, 143.679290771484)
+2022-09-27 22:58:03.980 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-150.148086547852, 10.7481107711792, 143.75798034668)
+2022-09-27 22:58:05.558 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with Sedan at Vector(-150.21858215332, 10.7463207244873, 143.818786621094)
+2022-09-27 22:58:23.236 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 22:58:23.236 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 22:58:23.243 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 100.27345283704766, 'fault': ['ego_fault']}
+2022-09-27 22:58:23.244 | INFO     | simulation.run_parse:run:75 -  === Record scenario_181 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 22:58:23.244 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-22-58-23] ===
+2022-09-27 22:59:09.926 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:00:14.257 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:00:14.265 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.5330124130703853, 'fault': ['normal']}
+2022-09-27 23:00:14.265 | INFO     | simulation.run_parse:run:75 -  === Record scenario_182 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:00:14.266 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-00-14] ===
+2022-09-27 23:00:59.498 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:02:03.310 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:02:03.316 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.5106977973366815, 'fault': ['normal']}
+2022-09-27 23:02:03.316 | INFO     | simulation.run_parse:run:75 -  === Record scenario_183 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:02:03.329 | INFO     | mutation.genetic_algorithm:process:269 -     *** 45th generation ***    
+2022-09-27 23:02:03.329 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-02-03] ===
+2022-09-27 23:02:50.208 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:03:53.123 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:03:53.130 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.2273977347052367, 'fault': ['normal']}
+2022-09-27 23:03:53.130 | INFO     | simulation.run_parse:run:75 -  === Record scenario_184 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:03:53.131 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-03-53] ===
+2022-09-27 23:04:37.769 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:05:42.112 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:05:42.119 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.2761002436612627, 'fault': ['normal']}
+2022-09-27 23:05:42.119 | INFO     | simulation.run_parse:run:75 -  === Record scenario_185 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:05:42.119 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-05-42] ===
+2022-09-27 23:06:29.494 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:07:34.006 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:07:34.011 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 4.187575182407522, 'fault': ['normal']}
+2022-09-27 23:07:34.011 | INFO     | simulation.run_parse:run:75 -  === Record scenario_186 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:07:34.012 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-07-34] ===
+2022-09-27 23:08:20.744 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:09:25.852 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:09:25.858 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.9002664649409644, 'fault': ['normal']}
+2022-09-27 23:09:25.858 | INFO     | simulation.run_parse:run:75 -  === Record scenario_187 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:09:25.872 | INFO     | mutation.genetic_algorithm:process:269 -     *** 46th generation ***    
+2022-09-27 23:09:25.873 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-09-25] ===
+2022-09-27 23:10:10.200 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:11:13.405 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:11:13.412 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.4039567942333537, 'fault': ['normal']}
+2022-09-27 23:11:13.412 | INFO     | simulation.run_parse:run:75 -  === Record scenario_188 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:11:13.412 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-11-13] ===
+2022-09-27 23:12:07.830 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:13:13.052 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:13:13.060 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.4116888778148138, 'fault': ['normal']}
+2022-09-27 23:13:13.060 | INFO     | simulation.run_parse:run:75 -  === Record scenario_189 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:13:13.060 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-13-13] ===
+2022-09-27 23:14:00.451 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:15:02.624 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:15:02.630 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.6598366934103075, 'fault': ['normal']}
+2022-09-27 23:15:02.630 | INFO     | simulation.run_parse:run:75 -  === Record scenario_190 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:15:02.630 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-15-02] ===
+2022-09-27 23:15:49.612 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:16:56.818 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:16:56.824 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 5.847984076161296, 'fault': ['normal']}
+2022-09-27 23:16:56.825 | INFO     | simulation.run_parse:run:75 -  === Record scenario_191 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:16:56.839 | INFO     | mutation.genetic_algorithm:process:269 -     *** 47th generation ***    
+2022-09-27 23:16:56.839 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-16-56] ===
+2022-09-27 23:17:44.051 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:18:49.490 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:18:49.498 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.000791771101475, 'fault': ['normal']}
+2022-09-27 23:18:49.499 | INFO     | simulation.run_parse:run:75 -  === Record scenario_192 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:18:49.499 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-18-49] ===
+2022-09-27 23:19:36.435 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:20:40.772 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:20:40.778 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.9917055315115744, 'fault': ['normal']}
+2022-09-27 23:20:40.778 | INFO     | simulation.run_parse:run:75 -  === Record scenario_193 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:20:40.779 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-20-40] ===
+2022-09-27 23:21:27.828 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:22:33.114 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:22:33.122 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.2921515204265415, 'fault': ['normal']}
+2022-09-27 23:22:33.122 | INFO     | simulation.run_parse:run:75 -  === Record scenario_194 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:22:33.122 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-22-33] ===
+2022-09-27 23:23:24.531 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:24:28.024 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:24:28.031 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.638765840921057, 'fault': ['normal']}
+2022-09-27 23:24:28.031 | INFO     | simulation.run_parse:run:75 -  === Record scenario_195 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:24:28.049 | INFO     | mutation.genetic_algorithm:process:269 -     *** 48th generation ***    
+2022-09-27 23:24:28.049 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-24-28] ===
+2022-09-27 23:25:18.237 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:26:22.217 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:26:22.223 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 5.85876323223481, 'fault': ['normal']}
+2022-09-27 23:26:22.223 | INFO     | simulation.run_parse:run:75 -  === Record scenario_196 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:26:22.223 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-26-22] ===
+2022-09-27 23:27:10.037 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:27:36.162 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-67.8560104370117, 10.9853467941284, 66.1281890869141)
+2022-09-27 23:28:13.391 | ERROR    | simulation.liability:ego_collision_fault:184 - NPC fault
+2022-09-27 23:28:13.391 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:28:13.399 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 108.79285258243931, 'fault': ['npc_fault']}
+2022-09-27 23:28:13.399 | INFO     | simulation.run_parse:run:75 -  === Record scenario_197 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:28:13.400 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-28-13] ===
+2022-09-27 23:29:00.937 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:29:39.104 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-115.916404724121, 10.7399749755859, 110.220832824707)
+2022-09-27 23:29:39.402 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-115.943954467773, 10.7669067382813, 110.327392578125)
+2022-09-27 23:30:04.873 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 23:30:04.873 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:30:04.881 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 100.24931758102622, 'fault': ['ego_fault']}
+2022-09-27 23:30:04.881 | INFO     | simulation.run_parse:run:75 -  === Record scenario_198 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:30:04.882 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-30-04] ===
+2022-09-27 23:30:50.719 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:31:54.643 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:31:54.650 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 0.6886509234874152, 'fault': ['normal']}
+2022-09-27 23:31:54.650 | INFO     | simulation.run_parse:run:75 -  === Record scenario_199 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:31:54.664 | INFO     | mutation.genetic_algorithm:process:269 -     *** 49th generation ***    
+2022-09-27 23:31:54.664 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-31-54] ===
+2022-09-27 23:32:41.127 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:33:47.693 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:33:47.699 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.2685250039579605, 'fault': ['normal']}
+2022-09-27 23:33:47.699 | INFO     | simulation.run_parse:run:75 -  === Record scenario_200 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:33:47.700 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-33-47] ===
+2022-09-27 23:34:38.619 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:35:44.015 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:35:44.021 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.346836140343982, 'fault': ['normal']}
+2022-09-27 23:35:44.021 | INFO     | simulation.run_parse:run:75 -  === Record scenario_201 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:35:44.022 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-35-44] ===
+2022-09-27 23:36:29.238 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:37:35.520 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:37:35.528 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.5529556535492, 'fault': ['normal']}
+2022-09-27 23:37:35.528 | INFO     | simulation.run_parse:run:75 -  === Record scenario_202 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:37:35.528 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-37-35] ===
+2022-09-27 23:38:24.455 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:39:03.051 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-128.286178588867, 10.6414108276367, 123.275718688965)
+2022-09-27 23:39:30.686 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 23:39:30.687 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:39:30.693 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 101.70229016149726, 'fault': ['ego_fault']}
+2022-09-27 23:39:30.694 | INFO     | simulation.run_parse:run:75 -  === Record scenario_203 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:39:30.709 | INFO     | mutation.genetic_algorithm:process:269 -     *** 50th generation ***    
+2022-09-27 23:39:30.709 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-39-30] ===
+2022-09-27 23:40:15.145 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:41:07.619 | ERROR    | simulation.simulator:on_collision:206 - 47b529db-0593-4908-b3e7-4b24a32a0f70 collided with SUV at Vector(-159.313659667969, 10.6414108276367, 152.734252929688)
+2022-09-27 23:41:19.455 | ERROR    | simulation.liability:ego_collision_fault:187 - Ego fault
+2022-09-27 23:41:19.455 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:41:19.461 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 101.20418363395443, 'fault': ['ego_fault']}
+2022-09-27 23:41:19.462 | INFO     | simulation.run_parse:run:75 -  === Record scenario_204 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:41:19.462 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-41-19] ===
+2022-09-27 23:42:07.680 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:43:11.712 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:43:11.718 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 2.884775978332455, 'fault': ['normal']}
+2022-09-27 23:43:11.718 | INFO     | simulation.run_parse:run:75 -  === Record scenario_205 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:43:11.719 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-43-11] ===
+2022-09-27 23:43:56.919 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:45:04.359 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:45:04.365 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 3.1201301594808393, 'fault': ['normal']}
+2022-09-27 23:45:04.365 | INFO     | simulation.run_parse:run:75 -  === Record scenario_206 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:45:04.366 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-45-04] ===
+2022-09-27 23:45:50.875 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:46:56.922 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:46:56.929 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 1.7882339879192446, 'fault': ['normal']}
+2022-09-27 23:46:56.929 | INFO     | simulation.run_parse:run:75 -  === Record scenario_207 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:46:56.945 | INFO     | mutation.genetic_algorithm:process:269 -     *** 51th generation ***    
+2022-09-27 23:46:56.946 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-46-56] ===
+2022-09-27 23:47:43.112 | INFO     | simulation.simulator:runSimulation:270 -  --- destination: -163.97662240740016,155.20622149065366
+2022-09-27 23:48:49.053 | INFO     | simulation.simulator:runSimulation:454 -  === Simulation End === 
+2022-09-27 23:48:49.059 | INFO     | simulation.run_parse:run:74 -  === Simulation Result: {'fitness': 8.53705050204598, 'fault': ['normal']}
+2022-09-27 23:48:49.059 | INFO     | simulation.run_parse:run:75 -  === Record scenario_208 to outputs/ds_1_v2-at-09-27-2022-17-24-10/logs/case_states.log
+2022-09-27 23:48:49.059 | INFO     | simulation.simulator:runSimulation:167 -  === Simulation Start:  [09-27-2022-23-48-49] ===
+2022-09-27 23:49:14.312 | WARNING  | simulation.simulator:runSimulation:259 - Fail to spin up apollo, try again!
+2022-09-27 23:49:14.514 | WARNING  | simulation.simulator:runSimulation:259 - Fail to spin up apollo, try again!
+2022-09-27 23:49:14.532 | WARNING  | simulation.simulator:runSimulation:259 - Fail to spin up apollo, try again!

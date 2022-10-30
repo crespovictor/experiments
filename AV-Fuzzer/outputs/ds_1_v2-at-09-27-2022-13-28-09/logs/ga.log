@@ -1,0 +1,65 @@
+init_0,scenario_0
+init_1,scenario_1
+init_2,scenario_2
+init_3,scenario_3
+global_0,scenario_4,before run:3.6550667294679915,after run:7.899854735899128
+global_0,scenario_5,before run:7.800104707458128,after run:4.602960884033714
+global_1,scenario_6,before run:138.47653324298267,after run:102.52000758830164
+global_1,scenario_7,before run:138.47653324298267,after run:101.13122903516347
+global_1,scenario_8,before run:138.47653324298267,after run:101.97789698380775
+global_2,scenario_9,before run:138.47653324298267,after run:101.73213510775885
+global_2,scenario_10,before run:101.13122903516347,after run:103.21107206327923
+global_3,scenario_11,before run:138.47653324298267,after run:100.52433707663926
+global_3,scenario_12,before run:138.47653324298267,after run:103.62139522754424
+global_3,scenario_13,before run:138.47653324298267,after run:2.9663350918372973
+global_4,scenario_14,before run:103.62139522754424,after run:104.27371794124258
+global_4,scenario_15,before run:100.52433707663926,after run:100.26737892303953
+global_5,scenario_16,before run:103.62139522754424,after run:103.78909039107612
+global_5,scenario_17,before run:103.62139522754424,after run:105.10700677635117
+global_5,scenario_18,before run:103.62139522754424,after run:100.28932779679354
+global_5_restart_0,scenario_19
+global_5_restart_1,scenario_20
+global_5_restart_2,scenario_21
+global_5_restart_3,scenario_22
+global_6,scenario_23,before run:1.7824253931068492,after run:2.8172843676986323
+global_6,scenario_24,before run:1.443154379483635,after run:1.4169534350049993
+global_6,scenario_25,before run:2.1409123115391697,after run:1.7490726256427724
+global_6,scenario_26,before run:2.22139990635356,after run:2.2604663623731502
+global_7,scenario_27,before run:1.7490726256427724,after run:1.810917915432529
+global_8,scenario_28,before run:1.4169534350049993,after run:1.4359381214783487
+global_9,scenario_29,before run:1.810917915432529,after run:101.33545806623529
+global_9,scenario_30,before run:1.810917915432529,after run:2.5073455558998696
+global_9_local_0,scenario_31,before run:138.47653324298267,after run:103.6108788553309
+global_9_local_0,scenario_32,before run:103.6108788553309,after run:137.48798199684612
+global_9_local_0,scenario_33,before run:137.48798199684612,after run:121.54540580552867
+global_9_local_0,scenario_34,before run:121.54540580552867,after run:137.53854394637227
+global_9_local_0,scenario_35,before run:137.53854394637227,after run:100.48784033472528
+global_9_local_0,scenario_36,before run:100.48784033472528,after run:137.6751746554816
+global_9_local_0,scenario_37,before run:137.6751746554816,after run:105.31134957662093
+global_9_local_0,scenario_38,before run:105.31134957662093,after run:108.60782679933473
+global_9_local_1,scenario_39,before run:137.6751746554816,after run:3.73020444715154
+global_9_local_2,scenario_40,before run:137.6751746554816,after run:103.27678625425365
+global_9_local_2,scenario_41,before run:103.27678625425365,after run:104.06346992016451
+global_9_local_3,scenario_42,before run:137.6751746554816,after run:138.5346407267404
+global_9_local_3,scenario_43,before run:138.5346407267404,after run:7.229736140087176
+global_9_local_3,scenario_44,before run:7.229736140087176,after run:103.9434976259211
+global_9_local_3,scenario_45,before run:103.9434976259211,after run:3.6061651705693394
+global_9_local_4,scenario_46,before run:103.9434976259211,after run:137.50169410160606
+global_9_local_4,scenario_47,before run:137.50169410160606,after run:100.4000730319049
+global_9_local_4,scenario_48,before run:100.4000730319049,after run:101.50221108458693
+global_9_local_4,scenario_49,before run:101.50221108458693,after run:1.348182721916187
+global_10,scenario_50,before run:101.33545806623529,after run:100.96499601410888
+global_10_local_0,scenario_51,before run:138.5346407267404,after run:101.81004316777312
+global_10_local_0,scenario_52,before run:101.81004316777312,after run:9.629564448292584
+global_10_local_0,scenario_53,before run:9.629564448292584,after run:5.542154737176538
+global_10_local_0,scenario_54,before run:5.542154737176538,after run:100.2479603924639
+global_10_local_0,scenario_55,before run:100.2479603924639,after run:4.984523337571793
+global_10_local_0,scenario_56,before run:4.984523337571793,after run:101.6452030858992
+global_10_local_0,scenario_57,before run:101.6452030858992,after run:100.27897810445316
+global_10_local_0,scenario_58,before run:100.27897810445316,after run:102.32257030556165
+global_10_local_1,scenario_59,before run:102.32257030556165,after run:136.60165237874105
+global_10_local_1,scenario_60,before run:136.60165237874105,after run:101.00204042768272
+global_10_local_1,scenario_61,before run:101.00204042768272,after run:120.35606974679419
+global_10_local_2,scenario_62,before run:136.60165237874105,after run:103.31938671287945
+global_10_local_2,scenario_63,before run:103.31938671287945,after run:101.83624074874344
+global_10_local_2,scenario_64,before run:101.83624074874344,after run:100.6055456612605

@@ -1,0 +1,7 @@
+scenario_0 normal
+scenario_1 ego_fault
+scenario_2 npc_fault
+scenario_3 normal
+scenario_4 normal
+scenario_5 normal
+scenario_6 ego_fault

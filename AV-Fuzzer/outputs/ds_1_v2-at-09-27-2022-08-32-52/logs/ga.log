@@ -1,0 +1,7 @@
+init_0,scenario_0
+init_1,scenario_1
+init_2,scenario_2
+init_3,scenario_3
+global_0,scenario_4,before run:0.9881889568728249,after run:1.0351944926055767
+global_0,scenario_5,before run:120.7399867733532,after run:4.03246963608205
+global_0,scenario_6,before run:2.761557322884568,after run:101.5686835952169

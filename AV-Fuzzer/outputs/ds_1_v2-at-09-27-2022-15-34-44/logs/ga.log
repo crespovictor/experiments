@@ -1,0 +1,57 @@
+init_0,scenario_0
+init_1,scenario_1
+init_2,scenario_2
+init_3,scenario_3
+global_0,scenario_4,before run:102.70183787462868,after run:2.093049595366055
+global_0,scenario_5,before run:2.7355599687239733,after run:2.7007154726981537
+global_1,scenario_6,before run:2.355059248709611,after run:2.381717168675754
+global_1,scenario_7,before run:2.7007154726981537,after run:2.67284334655073
+global_2,scenario_8,before run:2.355059248709611,after run:2.2911796428931357
+global_2,scenario_9,before run:2.355059248709611,after run:2.350998172575696
+global_3,scenario_10,before run:2.355059248709611,after run:2.4251225435182002
+global_3,scenario_11,before run:2.2911796428931357,after run:2.401407530179042
+global_4,scenario_12,before run:2.4251225435182002,after run:2.4038171522028327
+global_4,scenario_13,before run:2.401407530179042,after run:2.5991935555580232
+global_5,scenario_14,before run:2.4038171522028327,after run:2.5423407974780963
+global_6,scenario_15,before run:2.2911796428931357,after run:2.4978354694469447
+global_6,scenario_16,before run:2.2911796428931357,after run:2.3966765110615036
+global_7,scenario_17,before run:2.3966765110615036,after run:2.3916213934547286
+global_7,scenario_18,before run:2.5991935555580232,after run:2.3846507312786223
+global_7,scenario_19,before run:2.4038171522028327,after run:2.4330912289070152
+global_8,scenario_20,before run:2.3916213934547286,after run:2.3866022644863616
+global_8,scenario_21,before run:2.4330912289070152,after run:2.365265839693795
+global_8,scenario_22,before run:2.5991935555580232,after run:2.427317611373712
+global_8,scenario_23,before run:2.5991935555580232,after run:3.0475539664055713
+global_8_local_0,scenario_24,before run:102.70183787462868,after run:104.18063641310123
+global_8_local_0,scenario_25,before run:104.18063641310123,after run:102.04114267520151
+global_8_local_0,scenario_26,before run:102.04114267520151,after run:102.54538812278909
+global_8_local_0,scenario_27,before run:102.54538812278909,after run:102.21994122079492
+global_8_local_0,scenario_28,before run:102.21994122079492,after run:102.2171476234279
+global_8_local_0,scenario_29,before run:102.2171476234279,after run:102.45843885256137
+global_8_local_0,scenario_30,before run:102.45843885256137,after run:101.97722617844562
+global_8_local_1,scenario_31,before run:102.45843885256137,after run:5.474327609153453
+global_8_local_1,scenario_32,before run:5.474327609153453,after run:100.5466822158995
+global_8_local_1,scenario_33,before run:100.5466822158995,after run:1.996266720287172
+global_8_local_2,scenario_34,before run:102.45843885256137,after run:1.6756704596013308
+global_8_local_2,scenario_35,before run:1.6756704596013308,after run:0.8590061356671899
+global_8_local_2,scenario_36,before run:0.8590061356671899,after run:101.09235797093018
+global_8_local_3,scenario_37,before run:102.45843885256137,after run:1.0412140300802497
+global_8_local_3,scenario_38,before run:1.0412140300802497,after run:2.261769888493803
+global_8_local_3,scenario_39,before run:2.261769888493803,after run:101.94558660334444
+global_8_local_4,scenario_40,before run:102.45843885256137,after run:2.4772784190978068
+global_8_local_4,scenario_41,before run:2.4772784190978068,after run:102.69011455266605
+global_9,scenario_42,before run:2.427317611373712,after run:2.3938681622683644
+global_9,scenario_43,before run:2.427317611373712,after run:2.548352594694158
+global_9_local_0,scenario_44,before run:104.18063641310123,after run:2.4854268627032625
+global_9_local_0,scenario_45,before run:2.4854268627032625,after run:100.30351731564853
+global_9_local_0,scenario_46,before run:100.30351731564853,after run:2.2914917934945778
+global_9_local_0,scenario_47,before run:2.2914917934945778,after run:6.294898262433982
+global_9_local_0,scenario_48,before run:6.294898262433982,after run:100.17592613990173
+global_9_local_0,scenario_49,before run:100.17592613990173,after run:101.81267750672839
+global_9_local_0,scenario_50,before run:101.81267750672839,after run:0.8012931255574446
+global_9_local_1,scenario_51,before run:101.81267750672839,after run:0.846818042131971
+global_9_local_1,scenario_52,before run:0.846818042131971,after run:4.446752445566042
+global_9_local_2,scenario_53,before run:100.17592613990173,after run:1.0585200205813636
+global_9_local_2,scenario_54,before run:1.0585200205813636,after run:101.80189000040293
+global_9_local_2,scenario_55,before run:101.80189000040293,after run:102.27221544144423
+global_9_local_3,scenario_56,before run:102.27221544144423,after run:4.88411111619801
